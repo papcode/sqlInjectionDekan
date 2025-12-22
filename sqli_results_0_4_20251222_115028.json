@@ -1,0 +1,22 @@
+[
+  {
+    "endpoint": "/CustomerProviderDocument/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligenceTeamChatNotfied",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/Company/GetCompaniesList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/Company/GetImportedSPList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  }
+]

@@ -38,29 +38,35 @@ DELAY_THRESHOLD = 8.0  # If response takes > 8 seconds for a 10-second payload, 
 # Headers et cookies extraits de votre requête curl
 HEADERS = {
     "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br, zstd",
     "accept-language": "en-US,en;q=0.9,ml;q=0.8",
     "connection": "keep-alive",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "content-length": "4",
     "origin": "https://fundsq-degroof-test.azurewebsites.net",
+    "host": "fundsq-degroof-test.azurewebsites.net",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0",
-    "x-requested-with": "XMLHttpRequest",
-    "sec-ch-ua": '"Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "sec-ch-ua": '"Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"Windows"'
 }
 
 COOKIES = {
-    "TranslationCulture": "ENG",
+    "ext_name": "ojplmecpdpgccookcobabopnaifgidhf",
     "__RequestVerificationToken": "nJSuzb0n01OdX9lHcSekGaAeGbuQV9Zo7AZ6Qy8wrppq35A-Yc9MbzNfP3BN8USn5gg7M9WhZvxiGd6GQEA9l_C0cvJE5-hUxVfuLt2hK_Q1",
     "ARRAffinity": "b75e77002ba89b7b27787cb1e27fb03824cd4882728e9d3f98d0a753614ce3a1",
     "ARRAffinitySameSite": "b75e77002ba89b7b27787cb1e27fb03824cd4882728e9d3f98d0a753614ce3a1",
-    ".AspNet.ApplicationCookie": "27It8N-8TW4w8kT7YeluOZHRgc1baeeHQPEfIVQR1THrsyPogwG5OkjJfHRnfYFzUY27zNSD10xACaArNtXcBqEvOTGmm36rDmq5iNCVxEc3VWKhzhoGLuqHTvpYAZ3WFdMS25SKBYagSEB9LN62R6bsT0tdNrOlE8JxZgg3qkgTR__lnhss5mPVMA59dLbqSVOdrL3TWb-qfxvVzkO86so3ETvzb4s82lYASDm_Sk6uFcJukheM3UgUU9Fyc4CYbR8zQJUtecha0npX3DBn7OT5sH6ljs05BtRA6rk_g8CZ5GL8iMxsSDKud1YVeNBoMNraAaFAh3kYtO9lggkIzXRmOaMWeHhvO636wjueZ4wD0Njv2J9FeQOxzxH7dVKJunbuKY90hw59L8Au_UDN-B8_Pnm-NdM_UjYbsjsFIWK5E7eDHtp3v_4ZaVufLAqVSshj5T1GitfVM9-p8XEKATOWHIsLjTmYkmjWBTRLOOoAeX9QbVlSTm31pWJGhDj1",
-    ".ASPXAUTH": "FC76777F5AB48C88F63A053E7FB873F0FBF4843304B05A1ADF64FC7E0651155DD7377C82DDA0C801FE42DB693F13F61888B8FFAD3F4ACD0B2BFBFE2DC3A3CC2D6AF4CFFCD434C83058D1488F07D813D441C90F090650490605727BBAD3B40C4612756A9BE0EE41C007C7C7D156740750321E3E09A11A0F2CA2820506A6C489134003CEA167D842B01A75CC2303AC551F",
-    "ASP.NET_SessionId": "o5jlpoijisucak4khjwerhcc",
-    "idleTimer": "%7B%22idleTime%22%3A%220%22%2C%22updatedTime%22%3A%22Mon%20Dec%2022%202025%2011%3A10%3A15%20GMT%2B0530%20(India%20Standard%20Time)%22%7D"
+    "TranslationCulture": "ENG",
+    "Sidebar": "false",
+    ".AspNet.ApplicationCookie": "0jBNSuGlRVSDc-3lSE2iJxIWxRX35oiyrjJ4dlalBLi9upvrM-un7amtqTGan1zlpOBpfsKWKEqHawdCovPks4P7Ltyo6w7Xpxt4LomaEH-TWscRG2dZCLooRPaWEv2ztQEQxFkSeCv8CG9msiS8SlzkZzELdL-f6fF726Pk9_rRl8_XEhSCscOtx_iBdvdNQ-bezjdbTi6cNaODrwH-wau55zloFUSlpV4cysJVE3D-z-Ox5YRUu1c2F_-t7TkDidGMgNFR5_eaGk65eV46fh83febSgxGnXecXs77_m4ePgWa7uxUEdBAentD6Dn7s3YGRfMdvvaKrEzC1DFxkjgK7qEHeHmxqfZsB7A9ZwZcoqahXRy2fgO_1VRL2BiCQb5Q0aDiMHkb68Z3q7wpnEagSYbtMREoyxQyQ_a57uf5gKw-2j09EfIE1sQUz_zCL1b8MwBtTg8pi4gux9Es4mPJ-fIYYaKAmddGROV8QF9VfAPH-0W_F10TKSovWoed-SzcDvqtz_N8z89Q9HIGGmg",
+    ".ASPXAUTH": "AF2467A4720CC0BB3CBB3EEC9E3304B6BCE9A0CE391FDD52106963BF9C89051B072AE491586B09E7BE938E072FC0F81835518B1D350BAA25166E9B9356143ABF86B6026DA0FFA72BEB4C182D1DCB85D20C3C996263179E78ED1B4E5402FC18589A5B256702A7BD00778C4C911B7B3E4378CB9DFD5F29D641B57CF13010111192ABC07421F9C53525CAF7DAC759F38E41",
+    "RememberMeLoginCookie": "uname=xIeo5d2HZQiT8w/C9dnKeuUq0SHAoNfhGcfjbdRnE+ttctwr6tGf1k9ab47AmScDlWVscz0OLAFtKpgTE5T+pQ==",
+    "idleTimer": "%7B%22idleTime%22%3A%220%22%2C%22updatedTime%22%3A%22Mon%20Dec%2022%202025%2012%3A51%3A20%20GMT%2B0530%20(India%20Standard%20Time)%22%7D"
 }
+
 
 # Input and output files
 INPUT_JSON_FILE = "endpoints.json"
@@ -114,14 +120,17 @@ def get_string_parameters(parameters: List[Dict]) -> List[str]:
     return string_params
 
 
-def should_skip_endpoint(parameters: List[Dict]) -> tuple[bool, str]:
+def should_skip_endpoint(parameters: List[Dict], skip_searchdata: bool = True) -> Tuple[bool, str]:
     """Check if endpoint should be skipped"""
+    if not skip_searchdata:
+        return False, ""
+    
     excluded_param_names = ["searchData"]
     
     for param in parameters:
         param_name = param.get("Name", "")
         if param_name in excluded_param_names:
-            return True, f"Paramètre '{param_name}' trouvé - endpoint ignoré"
+            return True, f"Parameter '{param_name}' found - endpoint skipped"
     
     return False, ""
 
@@ -151,14 +160,14 @@ def test_baseline_response_time(url: str, http_method: str, params: Dict[str, An
             times.append(response_time)
             
         except Exception as e:
-            print(f"    ⚠ Erreur baseline: {e}")
+            print(f"    ⚠ Baseline error: {e}")
             return 0.0, False
     
     avg_time = sum(times) / len(times) if times else 0.0
     return avg_time, True
 
 
-def test_sql_injection(endpoint: Dict, use_encoded: bool = False) -> Dict[str, Any]:
+def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdata: bool = True) -> Dict[str, Any]:
     """
     Tests an endpoint for time-based SQL injection
     """
@@ -169,7 +178,7 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False) -> Dict[str, A
     url = f"{BASE_URL}{route}"
     
     # Check if endpoint should be skipped
-    should_skip, skip_reason = should_skip_endpoint(parameters)
+    should_skip, skip_reason = should_skip_endpoint(parameters, skip_searchdata)
     if should_skip:
         return {
             "endpoint": route,
@@ -196,7 +205,8 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False) -> Dict[str, A
     print(f"String parameters: {', '.join(string_params)}")
     print(f"{'='*80}")
     
-    print(f"\n  → Establishing baseline response time...")
+    # Establish baseline response time
+    print(f"  → Establishing baseline response time...")
     baseline_time, baseline_success = test_baseline_response_time(url, http_method, base_params)
     
     if not baseline_success:
@@ -290,7 +300,7 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False) -> Dict[str, A
                 }
                 results["vulnerabilities"].append(vulnerability)
             except Exception as e:
-                print(f"      ✗ Erreur: {str(e)[:100]}")
+                print(f"      ✗ Error: {str(e)[:100]}")
     
     return results
 
@@ -304,6 +314,8 @@ def main():
     parser.add_argument('--controller', type=str, default=None, help='Filter by controller')
     parser.add_argument('--use-encoded', action='store_true', 
                        help='Use URL-encoded payloads')
+    parser.add_argument('--test-searchdata', action='store_true', 
+                       help='Include endpoints with searchData parameter (normally skipped)')
     parser.add_argument('--input', type=str, default=INPUT_JSON_FILE, 
                        help=f'Input JSON file (default: {INPUT_JSON_FILE})')
     
@@ -316,6 +328,7 @@ def main():
     print(f"Input file: {args.input}")
     print(f"Payloads: {'URL-encoded' if args.use_encoded else 'Standard'}")
     print(f"Detection threshold: {DELAY_THRESHOLD}s")
+    print(f"Skip searchData: {'No' if args.test_searchdata else 'Yes'}")
     print(f"{'='*80}\n")
     
     # Load endpoints
@@ -357,7 +370,7 @@ def main():
         route = endpoint.get("Route", "N/A")
         print(f"\n[{i}/{start_idx + len(endpoints_to_test)}] ", end="")
         
-        result = test_sql_injection(endpoint, args.use_encoded)
+        result = test_sql_injection(endpoint, args.use_encoded, not args.test_searchdata)
         results.append(result)
         
         if not result.get("skipped") and result.get("vulnerabilities"):

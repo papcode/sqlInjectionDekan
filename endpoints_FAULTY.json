@@ -1,0 +1,82 @@
+[{
+        "Route": "/CustomerProviderDocument/GetDDDocumentList",
+        "Controller": "CustomerProviderDocument",
+        "Action": "GetDDDocumentList",
+        "HttpVerbs": [
+            "POST"
+        ],
+        "Parameters": [{
+                "Name": "jqueryDataTablesModel",
+                "Type": "JQueryDataTablesModel",
+                "IsSimpleType": false
+            },
+            {
+                "Name": "searchData",
+                "Type": "String",
+                "IsSimpleType": true
+            }
+        ],
+        "MvcResultType": "JsonResult"
+    },
+    {
+        "Route": "/DueDiligence/UpdateDueDiligenceTeamChatNotfied",
+        "Controller": "DueDiligence",
+        "Action": "UpdateDueDiligenceTeamChatNotfied",
+        "HttpVerbs": [
+            "POST"
+        ],
+        "Parameters": [{
+                "Name": "sectionId",
+                "Type": "Int32",
+                "IsSimpleType": true
+            },
+            {
+                "Name": "ddType",
+                "Type": "String",
+                "IsSimpleType": true
+            }
+        ],
+        "MvcResultType": "ActionResult"
+    },
+    {
+        "Route": "/Company/GetCompaniesList",
+        "Controller": "Company",
+        "Action": "GetCompaniesList",
+        "HttpVerbs": [
+            "POST"
+        ],
+        "Parameters": [{
+                "Name": "jqueryDataTablesModel",
+                "Type": "JQueryDataTablesModel",
+                "IsSimpleType": false
+            },
+            {
+                "Name": "searchData",
+                "Type": "String",
+                "IsSimpleType": true
+            }
+        ],
+        "MvcResultType": "JsonResult"
+    },
+    {
+        "Route": "/Company/GetImportedSPList",
+        "Controller": "Company",
+        "Action": "GetImportedSPList",
+        "HttpVerbs": [
+            "GET"
+        ],
+        "Parameters": [{
+                "Name": "jqueryDataTablesModel",
+                "Type": "JQueryDataTablesModel",
+                "IsSimpleType": false
+            },
+            {
+                "Name": "searchData",
+                "Type": "String",
+                "IsSimpleType": true
+            }
+        ],
+        "MvcResultType": "JsonResult"
+    }
+
+]
