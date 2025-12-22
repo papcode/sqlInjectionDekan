@@ -1,0 +1,4767 @@
+[
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "controller": "DueDiligence",
+    "action": "AddServiceProviderChat",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.51,
+    "timestamp": "2025-12-22T14:56:04.249315",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "controller": "DueDiligence",
+    "action": "AssignReviewers",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.71,
+    "timestamp": "2025-12-22T14:56:04.655128",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "controller": "DueDiligence",
+    "action": "SaveReportComment",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.28,
+    "timestamp": "2025-12-22T14:56:07.793671",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "controller": "DueDiligence",
+    "action": "SaveCustomerValidation",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.39,
+    "timestamp": "2025-12-22T14:56:08.016019",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "controller": "DueDiligence",
+    "action": "SaveSPValidation",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.62,
+    "timestamp": "2025-12-22T14:56:08.485894",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "controller": "DueDiligence",
+    "action": "SaveQuestionAnswerListRiskReview",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.6,
+    "timestamp": "2025-12-22T14:56:08.445094",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "controller": "DueDiligence",
+    "action": "SaveSPAnswerList",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.63,
+    "timestamp": "2025-12-22T14:56:08.505193",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "controller": "DueDiligence",
+    "action": "SaveActionPlanDetails",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.69,
+    "timestamp": "2025-12-22T14:56:08.622861",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "controller": "DueDiligence",
+    "action": "SaveReviwerQuestionAnswerListRiskReview",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.7,
+    "timestamp": "2025-12-22T14:56:08.639596",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "controller": "DueDiligence",
+    "action": "SaveRedFlagQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.74,
+    "timestamp": "2025-12-22T14:56:08.710273",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "controller": "DueDiligence",
+    "action": "SaveSPAnswer",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.75,
+    "timestamp": "2025-12-22T14:56:08.742599",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "controller": "DueDiligence",
+    "action": "SaveQuestionnaireQuestionAdvise",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.76,
+    "timestamp": "2025-12-22T14:56:08.761586",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "controller": "DueDiligence",
+    "action": "AddToFavouriteDD",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.83,
+    "timestamp": "2025-12-22T14:56:08.901109",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "controller": "DueDiligence",
+    "action": "RemoveFromFavouriteDD",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.84,
+    "timestamp": "2025-12-22T14:56:08.923590",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "controller": "DueDiligence",
+    "action": "AddCustomerChat",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.11,
+    "timestamp": "2025-12-22T14:56:12.125333",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "controller": "DueDiligence",
+    "action": "ActivateDueDiligence",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.23,
+    "timestamp": "2025-12-22T14:56:25.001365",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "controller": "DueDiligence",
+    "action": "DeleteAnswerAttachment",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.27,
+    "timestamp": "2025-12-22T14:56:25.051619",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "controller": "DueDiligence",
+    "action": "SaveActioPontDetails",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.96,
+    "timestamp": "2025-12-22T14:56:29.106912",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "controller": "DueDiligence",
+    "action": "GetScoreCardDetails",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.08,
+    "timestamp": "2025-12-22T14:56:25.404184",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "controller": "DueDiligence",
+    "action": "GetRateDetailsOfSectionByDDId",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.39,
+    "timestamp": "2025-12-22T14:56:26.017357",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "controller": "DueDiligence",
+    "action": "GetEliminatoryQuestionsByDDId",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.35,
+    "timestamp": "2025-12-22T14:56:25.938125",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "controller": "DueDiligence",
+    "action": "GetRateDetailsBySectionId",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.3,
+    "timestamp": "2025-12-22T14:56:25.846713",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "controller": "DueDiligence",
+    "action": "TakeDueDiligence",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.74,
+    "timestamp": "2025-12-22T14:56:34.025980",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "controller": "DueDiligence",
+    "action": "SaveComplementaryQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 0.99,
+    "timestamp": "2025-12-22T14:57:27.932756",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "controller": "DueDiligence",
+    "action": "UpdateComplementaryQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.23,
+    "timestamp": "2025-12-22T14:57:28.245199",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "controller": "DueDiligence",
+    "action": "DeleteComplementaryQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.31,
+    "timestamp": "2025-12-22T14:57:35.604618",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "controller": "DueDiligence",
+    "action": "GetActionPointAttachmentsById",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.68,
+    "timestamp": "2025-12-22T14:56:46.556860",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "controller": "DueDiligence",
+    "action": "DownloadAttachmentFile",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.81,
+    "timestamp": "2025-12-22T14:56:47.184735",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceToLinkList",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.46,
+    "timestamp": "2025-12-22T14:56:47.492020",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceActivityLog",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.99,
+    "timestamp": "2025-12-22T14:56:47.268188",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "controller": "DueDiligence",
+    "action": "DownloadValidationDocument",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.71,
+    "timestamp": "2025-12-22T14:56:47.080604",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "controller": "DueDiligence",
+    "action": "GetQuestionnaireList",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.17,
+    "timestamp": "2025-12-22T14:56:48.011112",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "controller": "DueDiligence",
+    "action": "GetMyDueDiligenceList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.19,
+    "timestamp": "2025-12-22T14:56:36.332449",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "controller": "DueDiligence",
+    "action": "GetDDDocumentList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.27,
+    "timestamp": "2025-12-22T14:56:27.188563",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.64,
+        "baseline_time": 1.27,
+        "time_difference": 11.37,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.77,
+        "baseline_time": 1.27,
+        "time_difference": 16.5,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.5,
+        "baseline_time": 1.27,
+        "time_difference": 11.23,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.54,
+        "baseline_time": 1.27,
+        "time_difference": 11.27,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "controller": "DueDiligence",
+    "action": "PreviewAllRR",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.56,
+    "timestamp": "2025-12-22T14:56:26.358500",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "controller": "DueDiligence",
+    "action": "Index",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.71,
+    "timestamp": "2025-12-22T14:56:47.082764",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 2.51,
+    "timestamp": "2025-12-22T14:56:48.098125",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 13.8,
+        "baseline_time": 2.51,
+        "time_difference": 11.29,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.62,
+        "baseline_time": 2.51,
+        "time_difference": 15.11,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.69,
+        "baseline_time": 2.51,
+        "time_difference": 10.18,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.52,
+        "baseline_time": 2.51,
+        "time_difference": 10.02,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "controller": "DueDiligence",
+    "action": "DownloadAttachmentFileDocument",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.12,
+    "timestamp": "2025-12-22T14:56:47.856662",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "controller": "DueDiligence",
+    "action": "GetDDForQuestionCompare",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.08,
+    "timestamp": "2025-12-22T14:56:50.125897",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "controller": "DueDiligence",
+    "action": "GetQuickDDMessage",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.5,
+    "timestamp": "2025-12-22T14:56:54.616813",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "controller": "DueDiligence",
+    "action": "PreviewAllQuestionnaireQuestions",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.34,
+    "timestamp": "2025-12-22T14:56:25.931743",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceReceiveListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.03,
+    "timestamp": "2025-12-22T14:57:41.372575",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.61,
+        "baseline_time": 1.03,
+        "time_difference": 11.59,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 18.77,
+        "baseline_time": 1.03,
+        "time_difference": 17.75,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.4,
+        "baseline_time": 1.03,
+        "time_difference": 10.38,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.54,
+        "baseline_time": 1.03,
+        "time_difference": 10.51,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceFavouriteListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.25,
+    "timestamp": "2025-12-22T14:57:44.334522",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.71,
+        "baseline_time": 1.25,
+        "time_difference": 11.46,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.95,
+        "baseline_time": 1.25,
+        "time_difference": 15.7,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.45,
+        "baseline_time": 1.25,
+        "time_difference": 10.2,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.31,
+        "baseline_time": 1.25,
+        "time_difference": 10.06,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceArchiveListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.16,
+    "timestamp": "2025-12-22T14:57:46.459799",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.75,
+        "baseline_time": 1.16,
+        "time_difference": 10.59,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.51,
+        "baseline_time": 1.16,
+        "time_difference": 16.35,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.36,
+        "baseline_time": 1.16,
+        "time_difference": 10.19,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.43,
+        "baseline_time": 1.16,
+        "time_difference": 10.27,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "controller": "DueDiligence",
+    "action": "GetAutoCompleteList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 3.04,
+    "timestamp": "2025-12-22T14:57:30.949748",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.49,
+        "baseline_time": 3.04,
+        "time_difference": 9.45,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.97,
+        "baseline_time": 3.04,
+        "time_difference": 13.93,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.24,
+        "baseline_time": 3.04,
+        "time_difference": 8.19,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.5,
+        "baseline_time": 3.04,
+        "time_difference": 9.46,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceSendListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 2.55,
+    "timestamp": "2025-12-22T14:57:43.715766",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.65,
+        "baseline_time": 2.55,
+        "time_difference": 9.1,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.49,
+        "baseline_time": 2.55,
+        "time_difference": 14.95,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.39,
+        "baseline_time": 2.55,
+        "time_difference": 8.84,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.41,
+        "baseline_time": 2.55,
+        "time_difference": 8.86,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 6.27,
+    "timestamp": "2025-12-22T14:57:36.235721",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.62,
+        "baseline_time": 6.27,
+        "time_difference": 11.35,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "controller": "DueDiligence",
+    "action": "AssignReviewers",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.53,
+    "timestamp": "2025-12-22T15:02:31.533005",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "controller": "DueDiligence",
+    "action": "AddServiceProviderChat",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.71,
+    "timestamp": "2025-12-22T15:02:31.894439",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "controller": "DueDiligence",
+    "action": "SaveQuestionAnswerListRiskReview",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.87,
+    "timestamp": "2025-12-22T15:02:34.203754",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "controller": "DueDiligence",
+    "action": "SaveSPAnswerList",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.41,
+    "timestamp": "2025-12-22T15:02:35.297170",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "controller": "DueDiligence",
+    "action": "SaveRedFlagQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.87,
+    "timestamp": "2025-12-22T15:02:34.205348",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "controller": "DueDiligence",
+    "action": "SaveReviwerQuestionAnswerListRiskReview",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.96,
+    "timestamp": "2025-12-22T15:02:34.389169",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "controller": "DueDiligence",
+    "action": "SaveReportComment",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.83,
+    "timestamp": "2025-12-22T15:02:34.128092",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "controller": "DueDiligence",
+    "action": "SaveQuestionnaireQuestionAdvise",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.4,
+    "timestamp": "2025-12-22T15:02:35.277496",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "controller": "DueDiligence",
+    "action": "SaveSPAnswer",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.84,
+    "timestamp": "2025-12-22T15:02:34.155625",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "controller": "DueDiligence",
+    "action": "SaveCustomerValidation",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.4,
+    "timestamp": "2025-12-22T15:02:35.270614",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "controller": "DueDiligence",
+    "action": "SaveActionPlanDetails",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.84,
+    "timestamp": "2025-12-22T15:02:34.146544",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "controller": "DueDiligence",
+    "action": "SaveSPValidation",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.4,
+    "timestamp": "2025-12-22T15:02:35.275275",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "controller": "DueDiligence",
+    "action": "AddToFavouriteDD",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 3.02,
+    "timestamp": "2025-12-22T15:02:34.501038",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "controller": "DueDiligence",
+    "action": "RemoveFromFavouriteDD",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 2.92,
+    "timestamp": "2025-12-22T15:02:34.316896",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "controller": "DueDiligence",
+    "action": "DeleteAnswerAttachment",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.0,
+    "timestamp": "2025-12-22T15:02:50.405304",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "controller": "DueDiligence",
+    "action": "ActivateDueDiligence",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 0.97,
+    "timestamp": "2025-12-22T15:02:50.457389",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "controller": "DueDiligence",
+    "action": "AddCustomerChat",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.12,
+    "timestamp": "2025-12-22T15:02:46.182522",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "controller": "DueDiligence",
+    "action": "SaveActioPontDetails",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.39,
+    "timestamp": "2025-12-22T15:02:51.435620",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "controller": "DueDiligence",
+    "action": "GetScoreCardDetails",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.08,
+    "timestamp": "2025-12-22T15:02:52.617457",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "controller": "DueDiligence",
+    "action": "GetRateDetailsBySectionId",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.07,
+    "timestamp": "2025-12-22T15:02:52.611444",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "controller": "DueDiligence",
+    "action": "GetEliminatoryQuestionsByDDId",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.14,
+    "timestamp": "2025-12-22T15:02:52.751469",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "controller": "DueDiligence",
+    "action": "GetRateDetailsOfSectionByDDId",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.23,
+    "timestamp": "2025-12-22T15:02:52.917446",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "controller": "DueDiligence",
+    "action": "GetMyDueDiligenceList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 0.91,
+    "timestamp": "2025-12-22T15:02:59.963376",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "controller": "DueDiligence",
+    "action": "SaveComplementaryQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.48,
+    "timestamp": "2025-12-22T15:03:54.640410",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "controller": "DueDiligence",
+    "action": "UpdateComplementaryQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.75,
+    "timestamp": "2025-12-22T15:03:54.956785",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "controller": "DueDiligence",
+    "action": "TakeDueDiligence",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.78,
+    "timestamp": "2025-12-22T15:03:08.119254",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "controller": "DueDiligence",
+    "action": "DeleteComplementaryQuestion",
+    "http_method": "POST",
+    "is_datatable": false,
+    "baseline_time": 1.05,
+    "timestamp": "2025-12-22T15:04:04.506757",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "controller": "DueDiligence",
+    "action": "GetActionPointAttachmentsById",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.72,
+    "timestamp": "2025-12-22T15:03:12.211678",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "controller": "DueDiligence",
+    "action": "DownloadAttachmentFile",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.92,
+    "timestamp": "2025-12-22T15:03:12.664789",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceToLinkList",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.1,
+    "timestamp": "2025-12-22T15:03:13.144232",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "controller": "DueDiligence",
+    "action": "DownloadValidationDocument",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.39,
+    "timestamp": "2025-12-22T15:03:12.229695",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceActivityLog",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.77,
+    "timestamp": "2025-12-22T15:03:12.327353",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "controller": "DueDiligence",
+    "action": "GetQuestionnaireList",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.79,
+    "timestamp": "2025-12-22T15:03:14.188911",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "controller": "DueDiligence",
+    "action": "GetDDDocumentList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.08,
+    "timestamp": "2025-12-22T15:02:53.145257",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.43,
+        "baseline_time": 1.08,
+        "time_difference": 10.35,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.45,
+        "baseline_time": 1.08,
+        "time_difference": 16.37,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.49,
+        "baseline_time": 1.08,
+        "time_difference": 11.41,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.8,
+        "baseline_time": 1.08,
+        "time_difference": 11.72,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "controller": "DueDiligence",
+    "action": "PreviewAllRR",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.83,
+    "timestamp": "2025-12-22T15:02:52.137531",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.08,
+    "timestamp": "2025-12-22T15:03:03.053947",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.44,
+        "baseline_time": 1.08,
+        "time_difference": 11.36,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.5,
+        "baseline_time": 1.08,
+        "time_difference": 16.42,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.6,
+        "baseline_time": 1.08,
+        "time_difference": 11.52,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 14.09,
+        "baseline_time": 1.08,
+        "time_difference": 13.01,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "controller": "DueDiligence",
+    "action": "DownloadAttachmentFileDocument",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.48,
+    "timestamp": "2025-12-22T15:03:11.787379",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "controller": "DueDiligence",
+    "action": "Index",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.4,
+    "timestamp": "2025-12-22T15:03:13.392003",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "controller": "DueDiligence",
+    "action": "GetQuickDDMessage",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.03,
+    "timestamp": "2025-12-22T15:03:20.521893",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "controller": "DueDiligence",
+    "action": "GetDDForQuestionCompare",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 11.99,
+    "timestamp": "2025-12-22T15:03:20.199194",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "controller": "DueDiligence",
+    "action": "PreviewAllQuestionnaireQuestions",
+    "http_method": "GET",
+    "is_datatable": false,
+    "baseline_time": 12.26,
+    "timestamp": "2025-12-22T15:02:52.996930",
+    "skipped": false,
+    "vulnerabilities": []
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceReceiveListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.04,
+    "timestamp": "2025-12-22T15:04:08.241346",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.62,
+        "baseline_time": 1.04,
+        "time_difference": 11.58,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.4,
+        "baseline_time": 1.04,
+        "time_difference": 15.35,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.27,
+        "baseline_time": 1.04,
+        "time_difference": 10.22,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 13.1,
+        "baseline_time": 1.04,
+        "time_difference": 12.06,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceFavouriteListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.15,
+    "timestamp": "2025-12-22T15:04:09.440133",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.33,
+        "baseline_time": 1.15,
+        "time_difference": 10.18,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.43,
+        "baseline_time": 1.15,
+        "time_difference": 15.28,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.27,
+        "baseline_time": 1.15,
+        "time_difference": 10.12,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.46,
+        "baseline_time": 1.15,
+        "time_difference": 10.31,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceArchiveListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.13,
+    "timestamp": "2025-12-22T15:04:12.373544",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.41,
+        "baseline_time": 1.13,
+        "time_difference": 10.28,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.27,
+        "baseline_time": 1.13,
+        "time_difference": 15.14,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.33,
+        "baseline_time": 1.13,
+        "time_difference": 10.21,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.89,
+        "baseline_time": 1.13,
+        "time_difference": 10.77,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 5.58,
+    "timestamp": "2025-12-22T15:04:01.243833",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.29,
+        "baseline_time": 5.58,
+        "time_difference": 10.71,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_3",
+        "payload": "' OR '1'='1';WAITFOR DELAY '0:0:10'--",
+        "response_time": ">60",
+        "baseline_time": 5.58,
+        "time_difference": ">60",
+        "expected_delay": 10.0,
+        "status_code": "Timeout",
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "controller": "DueDiligence",
+    "action": "GetDueDiligenceSendListBlotter",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 1.96,
+    "timestamp": "2025-12-22T15:04:09.756769",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.34,
+        "baseline_time": 1.96,
+        "time_difference": 9.38,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 16.31,
+        "baseline_time": 1.96,
+        "time_difference": 14.35,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.43,
+        "baseline_time": 1.96,
+        "time_difference": 9.47,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.19,
+        "baseline_time": 1.96,
+        "time_difference": 10.23,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "sColumns",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": ">60",
+        "baseline_time": 1.96,
+        "time_difference": ">60",
+        "expected_delay": 15.0,
+        "status_code": "Timeout",
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "controller": "DueDiligence",
+    "action": "GetAutoCompleteList",
+    "http_method": "POST",
+    "is_datatable": true,
+    "baseline_time": 2.72,
+    "timestamp": "2025-12-22T15:03:56.069877",
+    "skipped": false,
+    "vulnerabilities": [
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:10'--",
+        "response_time": 12.56,
+        "baseline_time": 2.72,
+        "time_difference": 9.84,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "';WAITFOR DELAY '0:0:15'--",
+        "response_time": 17.45,
+        "baseline_time": 2.72,
+        "time_difference": 14.73,
+        "expected_delay": 15.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.36,
+        "baseline_time": 2.72,
+        "time_difference": 8.64,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "mDataProp_0",
+        "payload": "admin';WAITFOR DELAY '0:0:10'--",
+        "response_time": 11.34,
+        "baseline_time": 2.72,
+        "time_difference": 8.62,
+        "expected_delay": 10.0,
+        "status_code": 500,
+        "vulnerable": true
+      },
+      {
+        "parameter": "sColumns",
+        "payload": "1';WAITFOR DELAY '0:0:10'--",
+        "response_time": ">60",
+        "baseline_time": 2.72,
+        "time_difference": ">60",
+        "expected_delay": 10.0,
+        "status_code": "Timeout",
+        "vulnerable": true
+      }
+    ]
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CopyQuestionAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForReviewer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GeRRRtDueDiligenceSectionsByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCopyAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListForContributor",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRiskReviewAnswers",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ImportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ExportAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddToFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/MyDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswer",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReviwerQuestionAnswerListRiskReview",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveRedFlagQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPAnswerList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveCustomerValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveSPValidation",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateAndSendDDToProveder",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/RemoveFromFavouriteDD",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllRR",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetEliminatoryQuestionsByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SelfCompleteDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveIntelligentQuestionDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/ArchiveDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CloseDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CheckIntelligentQuestionExists",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAttachmentsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetSectionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionGraphDataForFinalReport",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadIntelligentQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadDemoPdf",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveDelayToAnswer",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDActionPointDashboardData",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireListForProviderGroup",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetInternalDDListToLink",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CompareQuestionBySectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDifferenceAnswerDifference",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetTemplateDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CancelDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateDueDiligence",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/CreateQuickDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UnLinkLinkedDD",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetUniqueIdAndProviderList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddCustomerChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/TakeDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/ActivateDueDiligence",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceValidationPhaseDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActioPontDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetActionPointAttachmentsById",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceActivityLog",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFile",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsById",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAllDDSectionsByIdForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/Index",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadValidationDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DownloadAttachmentFileDocument",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuestionnaireList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceToLinkList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDDocumentList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDDForQuestionCompare",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetQuickDDMessage",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetMyDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetAutoCompleteList",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteComplementaryQuestion",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceSendListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceReceiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceFavouriteListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceArchiveListBlotter",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionAnswerList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsByRRRSectionId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfRRRSectionByDDId",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/GetDueDiligenceStepStatusList",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/UpdateActionPointDetails",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignContributors",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/DeleteActionPlan",
+    "skipped": true,
+    "skip_reason": "No string parameters found"
+  },
+  {
+    "endpoint": "/DueDiligence/AddServiceProviderChat",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsOfSectionByDDId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetRateDetailsBySectionId",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveQuestionnaireQuestionAdvise",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/GetScoreCardDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveReportComment",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/SaveActionPlanDetails",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  },
+  {
+    "endpoint": "/DueDiligence/AssignReviewers",
+    "skipped": true,
+    "skip_reason": "Unable to establish baseline"
+  }
+]

