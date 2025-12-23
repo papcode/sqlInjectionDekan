@@ -52,12 +52,11 @@ DELAY_THRESHOLD = 8.0  # If response takes > 8 seconds for a 10-second payload, 
 
 # Headers et cookies extraits de votre requête curl
 HEADERS = {
-    "accept": "*/*",
+    "accept": "application/json, text/javascript, */*; q=0.01",
     "accept-encoding": "gzip, deflate, br, zstd",
     "accept-language": "en-US,en;q=0.9,ml;q=0.8",
     "connection": "keep-alive",
     "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "content-length": "4",
     "origin": "https://fundsq-degroof-test.azurewebsites.net",
     "host": "fundsq-degroof-test.azurewebsites.net",
     "sec-fetch-dest": "empty",
@@ -66,8 +65,10 @@ HEADERS = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "sec-ch-ua": '"Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
     "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"Windows"'
+    "sec-ch-ua-platform": '"Windows"',
+    "x-requested-with": "XMLHttpRequest"
 }
+
 
 COOKIES = {
     "ext_name": "ojplmecpdpgccookcobabopnaifgidhf",
@@ -76,11 +77,11 @@ COOKIES = {
     "ARRAffinitySameSite": "b75e77002ba89b7b27787cb1e27fb03824cd4882728e9d3f98d0a753614ce3a1",
     "TranslationCulture": "ENG",
     "Sidebar": "false",
-    ".AspNet.ApplicationCookie": "0jBNSuGlRVSDc-3lSE2iJxIWxRX35oiyrjJ4dlalBLi9upvrM-un7amtqTGan1zlpOBpfsKWKEqHawdCovPks4P7Ltyo6w7Xpxt4LomaEH-TWscRG2dZCLooRPaWEv2ztQEQxFkSeCv8CG9msiS8SlzkZzELdL-f6fF726Pk9_rRl8_XEhSCscOtx_iBdvdNQ-bezjdbTi6cNaODrwH-wau55zloFUSlpV4cysJVE3D-z-Ox5YRUu1c2F_-t7TkDidGMgNFR5_eaGk65eV46fh83febSgxGnXecXs77_m4ePgWa7uxUEdBAentD6Dn7s3YGRfMdvvaKrEzC1DFxkjgK7qEHeHmxqfZsB7A9ZwZcoqahXRy2fgO_1VRL2BiCQb5Q0aDiMHkb68Z3q7wpnEagSYbtMREoyxQyQ_a57uf5gKw-2j09EfIE1sQUz_zCL1b8MwBtTg8pi4gux9Es4mPJ-fIYYaKAmddGROV8QF9VfAPH-0W_F10TKSovWoed-SzcDvqtz_N8z89Q9HIGGmg",
-    ".ASPXAUTH": "AF2467A4720CC0BB3CBB3EEC9E3304B6BCE9A0CE391FDD52106963BF9C89051B072AE491586B09E7BE938E072FC0F81835518B1D350BAA25166E9B9356143ABF86B6026DA0FFA72BEB4C182D1DCB85D20C3C996263179E78ED1B4E5402FC18589A5B256702A7BD00778C4C911B7B3E4378CB9DFD5F29D641B57CF13010111192ABC07421F9C53525CAF7DAC759F38E41",
-    "RememberMeLoginCookie": "uname=xIeo5d2HZQiT8w/C9dnKeuUq0SHAoNfhGcfjbdRnE+ttctwr6tGf1k9ab47AmScDlWVscz0OLAFtKpgTE5T+pQ==",
-    "idleTimer": "%7B%22idleTime%22%3A%220%22%2C%22updatedTime%22%3A%22Mon%20Dec%2022%202025%2012%3A51%3A20%20GMT%2B0530%20(India%20Standard%20Time)%22%7D"
+    ".AspNet.ApplicationCookie": "rFVpbnTzaBGxPWtF1yAiH8ypXYpwShE_FN1UcmO7KSi1Y2ZBwPtY6V4lu1n_BfeLAVdnzSjkhCyzyN9lqb8pz7f1Uqp8rUBbGz0b4qTKeAod1Wv0YbvGwumGexxHmLE-wR4jgzA0gI1119YvnJ4_8v-RFy3_OGSFjGXp9akfzcquEIUdc58GYAnxWOwsp0f9nYTjL9xeybT_6UNspkAvcqCTNYMaSgMPSzQIAQTdooBIpSM94Z0xL5U0nhCkFetl6NKgZZ1KDQvk8kMpWphYaMQxtcquTlS2OPDlGlq4nZ0dY4zvDMItrwb178-crze5OOD0gfKVk61ttHD-J5BaKHXefm5zHGm2TIKPK8MURnrO_E9vJh3HgAZWhnW3D0seBXSNr6sRGftjUsl6mxXG9TjGo2HjvOyNNAHukkO6k72ETJPoiddtZoacjd3iFahtz9WjZWeFYE1pXXbV5KnlP1YT1ZH1n4y91nmK0WzLvlHWloqWuqOSU0nAtAYuEr4q",
+    ".ASPXAUTH": "FF5A83090AE4AD4901AB969769186751C7449524D05AC4DAEDB6EE308B32D9A2135CB1D34B9D16DE121279FC6BB34682EB75D675D41831910348E090C125CC657DEB952B1F8DA3FBB3D8490D8F100A45EC52A976FFB0F78F881BFEACCBB3F707BC870DF12E2720AC63165BA1CA7114A2FBB67AADCE66E1DD9DE62A5AA54E2A4164D747C324DFC0F0D42DFDFB4284AE56",
+    "idleTimer": "%7B%22idleTime%22%3A%220%22%2C%22updatedTime%22%3A%22Tue%20Dec%2023%202025%2011%3A42%3A01%20GMT%2B0530%20(India%20Standard%20Time)%22%7D"
 }
+
 
 # Input and output files
 INPUT_JSON_FILE = "endpoints.json"
@@ -521,7 +522,8 @@ def main():
         # Save intermediate results after each batch
         try:
             with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(all_results, f, indent=2, ensure_ascii=False)
+                # Save partial results with an empty summary to maintain structure
+                json.dump({"summary": {}, "results": all_results}, f, indent=2, ensure_ascii=False)
         except Exception as e:
             print(f"\n⚠ Warning: Could not save intermediate results: {e}")
     
@@ -530,7 +532,6 @@ def main():
     
     print(f"\n\n{'='*80}")
     print(f"✓ All processing completed in {total_time/60:.2f} minutes")
-    print(f"✓ Results saved to '{output_file}'")
     
     # Final statistics
     total = len(all_results)
@@ -538,6 +539,29 @@ def main():
     tested = total - skipped
     vulnerable_count = sum(1 for r in all_results if not r.get("skipped") and r.get("vulnerabilities"))
     
+    summary_data = {
+        "total_endpoints_processed": total,
+        "endpoints_tested": tested,
+        "endpoints_skipped": skipped,
+        "vulnerable_endpoints": vulnerable_count,
+        "vulnerability_rate": f"{vulnerable_count/tested*100:.1f}%" if tested > 0 else "N/A",
+        "total_processing_time_minutes": round(total_time / 60, 2),
+        "average_time_per_endpoint_seconds": round(total_time / total, 2) if total > 0 else 0,
+        "throughput_endpoints_per_minute": round(total / (total_time / 60), 1) if total_time > 0 else 0
+    }
+
+    final_output = {
+        "summary": summary_data,
+        "results": all_results
+    }
+
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(final_output, f, indent=2, ensure_ascii=False)
+        print(f"✓ Results and summary saved to '{output_file}'")
+    except Exception as e:
+        print(f"\n⚠ Warning: Could not save final results to '{output_file}': {e}")
+
     print(f"\n{'='*80}")
     print(f"SQL INJECTION TEST SUMMARY")
     print(f"{'='*80}")
@@ -545,9 +569,9 @@ def main():
     print(f"Endpoints tested: {tested}")
     print(f"Endpoints skipped: {skipped}")
     print(f"VULNERABLE endpoints: {vulnerable_count}")
-    print(f"Vulnerability rate: {vulnerable_count/tested*100:.1f}%" if tested > 0 else "N/A")
-    print(f"Average time per endpoint: {total_time/total:.2f}s")
-    print(f"Throughput: {total/(total_time/60):.1f} endpoints/minute")
+    print(f"Vulnerability rate: {summary_data['vulnerability_rate']}")
+    print(f"Average time per endpoint: {summary_data['average_time_per_endpoint_seconds']}s")
+    print(f"Throughput: {summary_data['throughput_endpoints_per_minute']} endpoints/minute")
     print(f"{'='*80}\n")
     
     # Display found vulnerabilities

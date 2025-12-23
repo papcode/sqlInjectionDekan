@@ -1,0 +1,6214 @@
+{
+  "summary": {
+    "total_endpoints_processed": 500,
+    "endpoints_tested": 190,
+    "endpoints_skipped": 310,
+    "vulnerable_endpoints": 70,
+    "vulnerability_rate": "36.8%",
+    "total_processing_time_minutes": 20.86,
+    "average_time_per_endpoint_seconds": 2.5,
+    "throughput_endpoints_per_minute": 24.0
+  },
+  "results": [
+    {
+      "endpoint": "/Company/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/UpdateIsBlueColor",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequestFromDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetImportedSPDetailById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateServiceProviderRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ExportServiceProviderListExcel",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MigrateContactNameToFirstAndLastName",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckIsLafCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/SaveDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ManageAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesToManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ImportProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/ApiScan/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveImportDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetAllCompanyList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestDateHistory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SendImportedSPRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MyCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompaniesForEliminatory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/NewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/VerifyNewCompanyRegistration",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/RegisterNewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderContactList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesUserCanManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestData",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ServiceProviderAutoComplete",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateRequestStatus",
+      "controller": "Company",
+      "action": "UpdateRequestStatus",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 2.06,
+      "timestamp": "2025-12-22T17:04:57.255981",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/RejectRequest",
+      "controller": "Company",
+      "action": "RejectRequest",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 0.97,
+      "timestamp": "2025-12-22T17:05:04.930302",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/UpdateRequestLastSeen",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControl",
+      "controller": "DDRisk",
+      "action": "GetDDRiskControl",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.65,
+      "timestamp": "2025-12-22T17:04:56.431141",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/CheckSPRequestStatus",
+      "controller": "Company",
+      "action": "CheckSPRequestStatus",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.99,
+      "timestamp": "2025-12-22T17:05:17.107979",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/InviteServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderById",
+      "controller": "Company",
+      "action": "GetServiceProviderById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.15,
+      "timestamp": "2025-12-22T17:05:17.435505",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetSPListForGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderContact",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyProfilePic",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/Index",
+      "controller": "DDRisk",
+      "action": "Index",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.87,
+      "timestamp": "2025-12-22T17:05:16.870029",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDDSettingsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyActionsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyDueDiligenceSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyActions",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ChangeAdministratorAndIsLocked",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Settings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/AutocompleteCostCenters",
+      "controller": "Company",
+      "action": "AutocompleteCostCenters",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.57,
+      "timestamp": "2025-12-22T17:05:18.281938",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetParameterById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveParameter",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/ReviewingDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckUserEmailAlreadyExist",
+      "controller": "Company",
+      "action": "CheckUserEmailAlreadyExist",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.29,
+      "timestamp": "2025-12-22T17:05:17.709995",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyById",
+      "controller": "Company",
+      "action": "GetCompanyById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.28,
+      "timestamp": "2025-12-22T17:05:17.703185",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactList",
+      "controller": "Company",
+      "action": "GetCompanyContactList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.97,
+      "timestamp": "2025-12-22T17:04:59.081307",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetRedIconDetailsForSideBar",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireForRedIcon",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SearchServiceProvider",
+      "controller": "Company",
+      "action": "SearchServiceProvider",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.01,
+      "timestamp": "2025-12-22T17:04:57.157438",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.4,
+          "baseline_time": 2.01,
+          "time_difference": 9.39,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.37,
+          "baseline_time": 2.01,
+          "time_difference": 14.36,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.88,
+          "baseline_time": 2.01,
+          "time_difference": 10.86,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.03,
+          "baseline_time": 2.01,
+          "time_difference": 10.02,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetAllCompaniesList",
+      "controller": "Company",
+      "action": "GetAllCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.85,
+      "timestamp": "2025-12-22T17:04:56.831815",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.36,
+          "baseline_time": 1.85,
+          "time_difference": 9.51,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.29,
+          "baseline_time": 1.85,
+          "time_difference": 14.44,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.74,
+          "baseline_time": 1.85,
+          "time_difference": 10.89,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.32,
+          "baseline_time": 1.85,
+          "time_difference": 9.47,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProvidersListForGroup",
+      "controller": "Company",
+      "action": "GetServiceProvidersListForGroup",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.9,
+      "timestamp": "2025-12-22T17:04:56.934548",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.37,
+          "baseline_time": 1.9,
+          "time_difference": 9.47,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.35,
+          "baseline_time": 1.9,
+          "time_difference": 14.45,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.22,
+          "baseline_time": 1.9,
+          "time_difference": 11.32,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.24,
+          "baseline_time": 1.9,
+          "time_difference": 10.33,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveAnswerAttachment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestList",
+      "controller": "Company",
+      "action": "GetServiceProviderRequestList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.91,
+      "timestamp": "2025-12-22T17:04:56.964952",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.33,
+          "baseline_time": 1.91,
+          "time_difference": 9.42,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.4,
+          "baseline_time": 1.91,
+          "time_difference": 14.49,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.21,
+          "baseline_time": 1.91,
+          "time_difference": 11.29,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.63,
+          "baseline_time": 1.91,
+          "time_difference": 10.71,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetImportedSPList",
+      "controller": "Company",
+      "action": "GetImportedSPList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.21,
+      "timestamp": "2025-12-22T17:04:57.557769",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.52,
+          "baseline_time": 2.21,
+          "time_difference": 9.3,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.35,
+          "baseline_time": 2.21,
+          "time_difference": 14.14,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.78,
+          "baseline_time": 2.21,
+          "time_difference": 11.57,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.17,
+          "baseline_time": 2.21,
+          "time_difference": 10.96,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetCompaniesList",
+      "controller": "Company",
+      "action": "GetCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.18,
+      "timestamp": "2025-12-22T17:04:57.501352",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.52,
+          "baseline_time": 2.18,
+          "time_difference": 9.34,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.4,
+          "baseline_time": 2.18,
+          "time_difference": 14.22,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.86,
+          "baseline_time": 2.18,
+          "time_difference": 12.68,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.47,
+          "baseline_time": 2.18,
+          "time_difference": 10.28,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetOwnQuestionnaire",
+      "controller": "Company",
+      "action": "GetOwnQuestionnaire",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.0,
+      "timestamp": "2025-12-22T17:04:57.134983",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.42,
+          "baseline_time": 2.0,
+          "time_difference": 9.42,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.36,
+          "baseline_time": 2.0,
+          "time_difference": 14.36,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.35,
+          "baseline_time": 2.0,
+          "time_difference": 11.35,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.26,
+          "baseline_time": 2.0,
+          "time_difference": 12.25,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveGeneralContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSectionContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCustomerList",
+      "controller": "Company",
+      "action": "GetCustomerList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.16,
+      "timestamp": "2025-12-22T17:04:57.461449",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.52,
+          "baseline_time": 2.16,
+          "time_difference": 9.36,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.36,
+          "baseline_time": 2.16,
+          "time_difference": 14.2,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.37,
+          "baseline_time": 2.16,
+          "time_difference": 11.2,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.56,
+          "baseline_time": 2.16,
+          "time_difference": 11.39,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderList",
+      "controller": "Company",
+      "action": "GetServiceProviderList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.14,
+      "timestamp": "2025-12-22T17:04:57.406686",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.5,
+          "baseline_time": 2.14,
+          "time_difference": 9.36,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.4,
+          "baseline_time": 2.14,
+          "time_difference": 14.26,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.09,
+          "baseline_time": 2.14,
+          "time_difference": 10.95,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.23,
+          "baseline_time": 2.14,
+          "time_difference": 12.09,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetTeamChatDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetExtraQuestionDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/AddComment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/updateAnsweredCountForAttachment",
+      "controller": "DueDiligence",
+      "action": "updateAnsweredCountForAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.15,
+      "timestamp": "2025-12-22T17:07:06.631467",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSPAnswer",
+      "controller": "DueDiligence",
+      "action": "SaveSPAnswer",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.39,
+      "timestamp": "2025-12-22T17:07:07.011868",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+      "controller": "DueDiligence",
+      "action": "DeleteAnswerAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.08,
+      "timestamp": "2025-12-22T17:07:09.808858",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/FavouriteDD",
+      "controller": "DueDiligence",
+      "action": "FavouriteDD",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.47,
+      "timestamp": "2025-12-22T17:07:12.096564",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDueDiligenceList",
+      "controller": "Company",
+      "action": "GetCompanyDueDiligenceList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 0.98,
+      "timestamp": "2025-12-22T17:05:12.504205",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.21,
+          "baseline_time": 0.98,
+          "time_difference": 10.23,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.24,
+          "baseline_time": 0.98,
+          "time_difference": 15.26,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.82,
+          "baseline_time": 0.98,
+          "time_difference": 11.83,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.83,
+          "baseline_time": 0.98,
+          "time_difference": 10.85,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupList",
+      "controller": "Company",
+      "action": "GetServiceProviderGroupList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.09,
+      "timestamp": "2025-12-22T17:04:57.303314",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.46,
+          "baseline_time": 2.09,
+          "time_difference": 9.38,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.34,
+          "baseline_time": 2.09,
+          "time_difference": 14.26,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.06,
+          "baseline_time": 2.09,
+          "time_difference": 10.97,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.34,
+          "baseline_time": 2.09,
+          "time_difference": 11.26,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_6",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": ">60",
+          "baseline_time": 2.09,
+          "time_difference": ">60",
+          "expected_delay": 15.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/RemoveAnswerAttachmentList",
+      "controller": "DueDiligence",
+      "action": "RemoveAnswerAttachmentList",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.33,
+      "timestamp": "2025-12-22T17:07:10.397488",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/ExportPDF",
+      "controller": "DueDiligence",
+      "action": "ExportPDF",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 2.29,
+      "timestamp": "2025-12-22T17:07:15.861309",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/ServiceProviderByContact",
+      "controller": "Company",
+      "action": "ServiceProviderByContact",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.57,
+      "timestamp": "2025-12-22T17:06:43.693417",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/DownloadDocumentFile",
+      "controller": "Company",
+      "action": "DownloadDocumentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.68,
+      "timestamp": "2025-12-22T17:06:43.927565",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDDDocumentation",
+      "controller": "DueDiligence",
+      "action": "GetDDDocumentation",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.59,
+      "timestamp": "2025-12-22T17:06:47.786107",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDuediligenceDetails",
+      "controller": "DueDiligence",
+      "action": "GetDuediligenceDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.95,
+      "timestamp": "2025-12-22T17:06:47.705255",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetRequestHistory",
+      "controller": "Company",
+      "action": "GetRequestHistory",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.09,
+      "timestamp": "2025-12-22T17:06:05.227238",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.6,
+          "baseline_time": 1.09,
+          "time_difference": 11.51,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.95,
+          "baseline_time": 1.09,
+          "time_difference": 15.86,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 16.71,
+          "baseline_time": 1.09,
+          "time_difference": 15.62,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.58,
+          "baseline_time": 1.09,
+          "time_difference": 10.48,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetParametersList",
+      "controller": "Company",
+      "action": "GetParametersList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.9,
+      "timestamp": "2025-12-22T17:06:25.570980",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.42,
+          "baseline_time": 1.9,
+          "time_difference": 9.52,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.32,
+          "baseline_time": 1.9,
+          "time_difference": 15.42,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.46,
+          "baseline_time": 1.9,
+          "time_difference": 9.56,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.53,
+          "baseline_time": 1.9,
+          "time_difference": 9.62,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/ResendServiceProviderRequest",
+      "controller": "Company",
+      "action": "ResendServiceProviderRequest",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.14,
+      "timestamp": "2025-12-22T17:05:17.412482",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/DownloadAttachmentFile",
+      "controller": "DueDiligence",
+      "action": "DownloadAttachmentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.59,
+      "timestamp": "2025-12-22T17:07:28.436752",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+      "controller": "DueDiligence",
+      "action": "PreviewAllQuestionnaireQuestions",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.7,
+      "timestamp": "2025-12-22T17:07:33.085758",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaire",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaire",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.75,
+      "timestamp": "2025-12-22T17:06:47.967461",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireDetails",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaireDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.7,
+      "timestamp": "2025-12-22T17:07:01.759432",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/SaveServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestDateHistory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetAllCompanyList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/ApiScan/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/SaveDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveImportDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ImportProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ExportServiceProviderListExcel",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SendImportedSPRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckIsLafCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/UpdateIsBlueColor",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ManageAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetImportedSPDetailById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateServiceProviderRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MigrateContactNameToFirstAndLastName",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MyCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompaniesForEliminatory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/NewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/VerifyNewCompanyRegistration",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/RegisterNewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesToManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequestFromDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderContactList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestData",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesUserCanManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ServiceProviderAutoComplete",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateRequestStatus",
+      "controller": "Company",
+      "action": "UpdateRequestStatus",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 4.45,
+      "timestamp": "2025-12-22T17:09:07.599091",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/RejectRequest",
+      "controller": "Company",
+      "action": "RejectRequest",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.94,
+      "timestamp": "2025-12-22T17:09:28.019149",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "comments",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 1.94,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/UpdateRequestLastSeen",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckUserEmailAlreadyExist",
+      "controller": "Company",
+      "action": "CheckUserEmailAlreadyExist",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.13,
+      "timestamp": "2025-12-22T17:09:22.957132",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyById",
+      "controller": "Company",
+      "action": "GetCompanyById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.34,
+      "timestamp": "2025-12-22T17:09:23.373800",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/InviteServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControl",
+      "controller": "DDRisk",
+      "action": "GetDDRiskControl",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.19,
+      "timestamp": "2025-12-22T17:09:07.079787",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetSPListForGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderContact",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyProfilePic",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/AutocompleteCostCenters",
+      "controller": "Company",
+      "action": "AutocompleteCostCenters",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.33,
+      "timestamp": "2025-12-22T17:09:23.366273",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDDSettingsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyActionsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyDueDiligenceSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyActions",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ChangeAdministratorAndIsLocked",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Settings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckSPRequestStatus",
+      "controller": "Company",
+      "action": "CheckSPRequestStatus",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.04,
+      "timestamp": "2025-12-22T17:09:22.768454",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetParameterById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveParameter",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/ReviewingDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderById",
+      "controller": "Company",
+      "action": "GetServiceProviderById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.05,
+      "timestamp": "2025-12-22T17:09:22.786055",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DDRisk/Index",
+      "controller": "DDRisk",
+      "action": "Index",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.65,
+      "timestamp": "2025-12-22T17:09:23.973854",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactList",
+      "controller": "Company",
+      "action": "GetCompanyContactList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 5.93,
+      "timestamp": "2025-12-22T17:09:10.563541",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetRedIconDetailsForSideBar",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireForRedIcon",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetOwnQuestionnaire",
+      "controller": "Company",
+      "action": "GetOwnQuestionnaire",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 3.64,
+      "timestamp": "2025-12-22T17:09:05.979259",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 15.38,
+          "baseline_time": 3.64,
+          "time_difference": 11.74,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.52,
+          "baseline_time": 3.64,
+          "time_difference": 12.88,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProvidersListForGroup",
+      "controller": "Company",
+      "action": "GetServiceProvidersListForGroup",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.16,
+      "timestamp": "2025-12-22T17:09:06.998760",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.5,
+          "baseline_time": 4.16,
+          "time_difference": 10.34,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.58,
+          "baseline_time": 4.16,
+          "time_difference": 12.42,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetCustomerList",
+      "controller": "Company",
+      "action": "GetCustomerList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.45,
+      "timestamp": "2025-12-22T17:09:07.587880",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.38,
+          "baseline_time": 4.45,
+          "time_difference": 9.93,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.34,
+          "baseline_time": 4.45,
+          "time_difference": 11.89,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveAnswerAttachment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupList",
+      "controller": "Company",
+      "action": "GetServiceProviderGroupList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 3.93,
+      "timestamp": "2025-12-22T17:09:06.559941",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.87,
+          "baseline_time": 3.93,
+          "time_difference": 10.94,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.62,
+          "baseline_time": 3.93,
+          "time_difference": 12.69,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetImportedSPList",
+      "controller": "Company",
+      "action": "GetImportedSPList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.45,
+      "timestamp": "2025-12-22T17:09:07.586791",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.51,
+          "baseline_time": 4.45,
+          "time_difference": 10.06,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.38,
+          "baseline_time": 4.45,
+          "time_difference": 11.93,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/SearchServiceProvider",
+      "controller": "Company",
+      "action": "SearchServiceProvider",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.45,
+      "timestamp": "2025-12-22T17:09:07.593521",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 15.31,
+          "baseline_time": 4.45,
+          "time_difference": 10.86,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.42,
+          "baseline_time": 4.45,
+          "time_difference": 11.97,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderList",
+      "controller": "Company",
+      "action": "GetServiceProviderList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.14,
+      "timestamp": "2025-12-22T17:09:06.961195",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.55,
+          "baseline_time": 4.14,
+          "time_difference": 10.41,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.6,
+          "baseline_time": 4.14,
+          "time_difference": 12.46,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveGeneralContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSectionContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesList",
+      "controller": "Company",
+      "action": "GetCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.18,
+      "timestamp": "2025-12-22T17:09:07.050992",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.44,
+          "baseline_time": 4.18,
+          "time_difference": 10.25,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.59,
+          "baseline_time": 4.18,
+          "time_difference": 12.41,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetAllCompaniesList",
+      "controller": "Company",
+      "action": "GetAllCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.2,
+      "timestamp": "2025-12-22T17:09:07.081352",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 17.98,
+          "baseline_time": 4.2,
+          "time_difference": 13.78,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.9,
+          "baseline_time": 4.2,
+          "time_difference": 12.7,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetTeamChatDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetExtraQuestionDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/AddComment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestList",
+      "controller": "Company",
+      "action": "GetServiceProviderRequestList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 4.45,
+      "timestamp": "2025-12-22T17:09:07.596452",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 18.24,
+          "baseline_time": 4.45,
+          "time_difference": 13.79,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.86,
+          "baseline_time": 4.45,
+          "time_difference": 13.41,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+      "controller": "DueDiligence",
+      "action": "DeleteAnswerAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.12,
+      "timestamp": "2025-12-22T17:11:07.811572",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/updateAnsweredCountForAttachment",
+      "controller": "DueDiligence",
+      "action": "updateAnsweredCountForAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.31,
+      "timestamp": "2025-12-22T17:11:06.964975",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/FavouriteDD",
+      "controller": "DueDiligence",
+      "action": "FavouriteDD",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.18,
+      "timestamp": "2025-12-22T17:11:08.561104",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSPAnswer",
+      "controller": "DueDiligence",
+      "action": "SaveSPAnswer",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.44,
+      "timestamp": "2025-12-22T17:11:06.810408",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/RemoveAnswerAttachmentList",
+      "controller": "DueDiligence",
+      "action": "RemoveAnswerAttachmentList",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.18,
+      "timestamp": "2025-12-22T17:11:08.044933",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/ExportPDF",
+      "controller": "DueDiligence",
+      "action": "ExportPDF",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.56,
+      "timestamp": "2025-12-22T17:11:11.465278",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/ServiceProviderByContact",
+      "controller": "Company",
+      "action": "ServiceProviderByContact",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.53,
+      "timestamp": "2025-12-22T17:10:45.119545",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/DownloadDocumentFile",
+      "controller": "Company",
+      "action": "DownloadDocumentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.77,
+      "timestamp": "2025-12-22T17:10:45.606629",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDuediligenceDetails",
+      "controller": "DueDiligence",
+      "action": "GetDuediligenceDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.88,
+      "timestamp": "2025-12-22T17:10:46.378286",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDueDiligenceList",
+      "controller": "Company",
+      "action": "GetCompanyDueDiligenceList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.35,
+      "timestamp": "2025-12-22T17:09:55.989916",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.44,
+          "baseline_time": 1.35,
+          "time_difference": 11.08,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.2,
+          "baseline_time": 1.35,
+          "time_difference": 14.85,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.43,
+          "baseline_time": 1.35,
+          "time_difference": 10.08,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.42,
+          "baseline_time": 1.35,
+          "time_difference": 10.07,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/GetDDDocumentation",
+      "controller": "DueDiligence",
+      "action": "GetDDDocumentation",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.95,
+      "timestamp": "2025-12-22T17:10:47.232148",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "ddId",
+          "payload": "' OR '1'='1';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 11.95,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetRequestHistory",
+      "controller": "Company",
+      "action": "GetRequestHistory",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.0,
+      "timestamp": "2025-12-22T17:10:23.290040",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.39,
+          "baseline_time": 1.0,
+          "time_difference": 10.39,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.39,
+          "baseline_time": 1.0,
+          "time_difference": 15.39,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.55,
+          "baseline_time": 1.0,
+          "time_difference": 10.55,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.53,
+          "baseline_time": 1.0,
+          "time_difference": 10.53,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetParametersList",
+      "controller": "Company",
+      "action": "GetParametersList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.08,
+      "timestamp": "2025-12-22T17:10:24.592982",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.27,
+          "baseline_time": 1.08,
+          "time_difference": 10.19,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.39,
+          "baseline_time": 1.08,
+          "time_difference": 15.3,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.86,
+          "baseline_time": 1.08,
+          "time_difference": 10.78,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.4,
+          "baseline_time": 1.08,
+          "time_difference": 10.32,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/ResendServiceProviderRequest",
+      "controller": "Company",
+      "action": "ResendServiceProviderRequest",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.31,
+      "timestamp": "2025-12-22T17:09:23.306657",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/DownloadAttachmentFile",
+      "controller": "DueDiligence",
+      "action": "DownloadAttachmentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.94,
+      "timestamp": "2025-12-22T17:11:28.600571",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+      "controller": "DueDiligence",
+      "action": "PreviewAllQuestionnaireQuestions",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.18,
+      "timestamp": "2025-12-22T17:11:28.885845",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaire",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaire",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.83,
+      "timestamp": "2025-12-22T17:10:46.440326",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireDetails",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaireDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.61,
+      "timestamp": "2025-12-22T17:11:15.781198",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetRequestDateHistory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SendImportedSPRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MigrateContactNameToFirstAndLastName",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/UpdateIsBlueColor",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ImportProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/ApiScan/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckIsLafCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/SaveDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetImportedSPDetailById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveImportDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ExportServiceProviderListExcel",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ManageAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetAllCompanyList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateServiceProviderRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequestFromDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderContactList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MyCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompaniesForEliminatory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/NewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/VerifyNewCompanyRegistration",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/RegisterNewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesToManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesUserCanManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ServiceProviderAutoComplete",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestData",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateRequestStatus",
+      "controller": "Company",
+      "action": "UpdateRequestStatus",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 2.04,
+      "timestamp": "2025-12-22T17:13:17.412437",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/RejectRequest",
+      "controller": "Company",
+      "action": "RejectRequest",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.1,
+      "timestamp": "2025-12-22T17:13:29.446573",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/UpdateRequestLastSeen",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControl",
+      "controller": "DDRisk",
+      "action": "GetDDRiskControl",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.16,
+      "timestamp": "2025-12-22T17:13:17.618523",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyById",
+      "controller": "Company",
+      "action": "GetCompanyById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.88,
+      "timestamp": "2025-12-22T17:13:37.077161",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/InviteServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckUserEmailAlreadyExist",
+      "controller": "Company",
+      "action": "CheckUserEmailAlreadyExist",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.11,
+      "timestamp": "2025-12-22T17:13:37.540091",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetSPListForGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderContact",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyProfilePic",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/Index",
+      "controller": "DDRisk",
+      "action": "Index",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.39,
+      "timestamp": "2025-12-22T17:13:38.086940",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDDSettingsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyActionsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyDueDiligenceSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyActions",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ChangeAdministratorAndIsLocked",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Settings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckSPRequestStatus",
+      "controller": "Company",
+      "action": "CheckSPRequestStatus",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.31,
+      "timestamp": "2025-12-22T17:13:37.945423",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetParameterById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveParameter",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/ReviewingDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/AutocompleteCostCenters",
+      "controller": "Company",
+      "action": "AutocompleteCostCenters",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.33,
+      "timestamp": "2025-12-22T17:13:37.973231",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderById",
+      "controller": "Company",
+      "action": "GetServiceProviderById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.38,
+      "timestamp": "2025-12-22T17:13:38.079640",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactList",
+      "controller": "Company",
+      "action": "GetCompanyContactList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.5,
+      "timestamp": "2025-12-22T17:13:18.312706",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_1",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 2.5,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/GetRedIconDetailsForSideBar",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireForRedIcon",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetOwnQuestionnaire",
+      "controller": "Company",
+      "action": "GetOwnQuestionnaire",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.82,
+      "timestamp": "2025-12-22T17:13:16.977026",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.41,
+          "baseline_time": 1.82,
+          "time_difference": 9.58,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.54,
+          "baseline_time": 1.82,
+          "time_difference": 14.72,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.41,
+          "baseline_time": 1.82,
+          "time_difference": 11.59,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.45,
+          "baseline_time": 1.82,
+          "time_difference": 9.62,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupList",
+      "controller": "Company",
+      "action": "GetServiceProviderGroupList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.07,
+      "timestamp": "2025-12-22T17:13:17.465146",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.39,
+          "baseline_time": 2.07,
+          "time_difference": 10.32,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.57,
+          "baseline_time": 2.07,
+          "time_difference": 14.5,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.45,
+          "baseline_time": 2.07,
+          "time_difference": 10.38,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.67,
+          "baseline_time": 2.07,
+          "time_difference": 9.6,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/SearchServiceProvider",
+      "controller": "Company",
+      "action": "SearchServiceProvider",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.0,
+      "timestamp": "2025-12-22T17:13:17.331876",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.18,
+          "baseline_time": 2.0,
+          "time_difference": 10.18,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.91,
+          "baseline_time": 2.0,
+          "time_difference": 14.91,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.79,
+          "baseline_time": 2.0,
+          "time_difference": 10.79,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.57,
+          "baseline_time": 2.0,
+          "time_difference": 9.57,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveAnswerAttachment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProvidersListForGroup",
+      "controller": "Company",
+      "action": "GetServiceProvidersListForGroup",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.78,
+      "timestamp": "2025-12-22T17:13:16.874242",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.47,
+          "baseline_time": 1.78,
+          "time_difference": 9.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 18.02,
+          "baseline_time": 1.78,
+          "time_difference": 16.25,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.2,
+          "baseline_time": 1.78,
+          "time_difference": 10.43,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.54,
+          "baseline_time": 1.78,
+          "time_difference": 9.77,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetCompaniesList",
+      "controller": "Company",
+      "action": "GetCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.97,
+      "timestamp": "2025-12-22T17:13:17.251096",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.21,
+          "baseline_time": 1.97,
+          "time_difference": 10.24,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.97,
+          "baseline_time": 1.97,
+          "time_difference": 15.0,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.37,
+          "baseline_time": 1.97,
+          "time_difference": 11.4,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.62,
+          "baseline_time": 1.97,
+          "time_difference": 9.65,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderList",
+      "controller": "Company",
+      "action": "GetServiceProviderList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.01,
+      "timestamp": "2025-12-22T17:13:17.341309",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.15,
+          "baseline_time": 2.01,
+          "time_difference": 10.13,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.61,
+          "baseline_time": 2.01,
+          "time_difference": 14.59,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.58,
+          "baseline_time": 2.01,
+          "time_difference": 10.57,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.76,
+          "baseline_time": 2.01,
+          "time_difference": 9.75,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetAllCompaniesList",
+      "controller": "Company",
+      "action": "GetAllCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.15,
+      "timestamp": "2025-12-22T17:13:17.611469",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.79,
+          "baseline_time": 2.15,
+          "time_difference": 12.64,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.54,
+          "baseline_time": 2.15,
+          "time_difference": 15.39,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.31,
+          "baseline_time": 2.15,
+          "time_difference": 9.16,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.34,
+          "baseline_time": 2.15,
+          "time_difference": 9.19,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveGeneralContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSectionContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestList",
+      "controller": "Company",
+      "action": "GetServiceProviderRequestList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.08,
+      "timestamp": "2025-12-22T17:13:17.485029",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.37,
+          "baseline_time": 2.08,
+          "time_difference": 11.28,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.71,
+          "baseline_time": 2.08,
+          "time_difference": 14.63,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.36,
+          "baseline_time": 2.08,
+          "time_difference": 9.28,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.44,
+          "baseline_time": 2.08,
+          "time_difference": 9.36,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetCustomerList",
+      "controller": "Company",
+      "action": "GetCustomerList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 2.11,
+      "timestamp": "2025-12-22T17:13:17.532470",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.34,
+          "baseline_time": 2.11,
+          "time_difference": 12.23,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.61,
+          "baseline_time": 2.11,
+          "time_difference": 14.5,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.66,
+          "baseline_time": 2.11,
+          "time_difference": 10.55,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.26,
+          "baseline_time": 2.11,
+          "time_difference": 9.16,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetTeamChatDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetExtraQuestionDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/AddComment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/updateAnsweredCountForAttachment",
+      "controller": "DueDiligence",
+      "action": "updateAnsweredCountForAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.56,
+      "timestamp": "2025-12-22T17:15:22.828177",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+      "controller": "DueDiligence",
+      "action": "DeleteAnswerAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.31,
+      "timestamp": "2025-12-22T17:15:24.290614",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSPAnswer",
+      "controller": "DueDiligence",
+      "action": "SaveSPAnswer",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.79,
+      "timestamp": "2025-12-22T17:15:23.198331",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/FavouriteDD",
+      "controller": "DueDiligence",
+      "action": "FavouriteDD",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.67,
+      "timestamp": "2025-12-22T17:15:25.393460",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/RemoveAnswerAttachmentList",
+      "controller": "DueDiligence",
+      "action": "RemoveAnswerAttachmentList",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.51,
+      "timestamp": "2025-12-22T17:15:24.784000",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDueDiligenceList",
+      "controller": "Company",
+      "action": "GetCompanyDueDiligenceList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 0.99,
+      "timestamp": "2025-12-22T17:13:36.935711",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.53,
+          "baseline_time": 0.99,
+          "time_difference": 10.54,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 19.21,
+          "baseline_time": 0.99,
+          "time_difference": 18.22,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.42,
+          "baseline_time": 0.99,
+          "time_difference": 10.43,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.31,
+          "baseline_time": 0.99,
+          "time_difference": 10.31,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetImportedSPList",
+      "controller": "Company",
+      "action": "GetImportedSPList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.93,
+      "timestamp": "2025-12-22T17:13:17.177219",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.41,
+          "baseline_time": 1.93,
+          "time_difference": 9.48,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.79,
+          "baseline_time": 1.93,
+          "time_difference": 14.86,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.85,
+          "baseline_time": 1.93,
+          "time_difference": 10.92,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.44,
+          "baseline_time": 1.93,
+          "time_difference": 9.51,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_1",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 1.93,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/ExportPDF",
+      "controller": "DueDiligence",
+      "action": "ExportPDF",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 2.59,
+      "timestamp": "2025-12-22T17:15:28.683413",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/ServiceProviderByContact",
+      "controller": "Company",
+      "action": "ServiceProviderByContact",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.31,
+      "timestamp": "2025-12-22T17:14:58.273044",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDuediligenceDetails",
+      "controller": "DueDiligence",
+      "action": "GetDuediligenceDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.63,
+      "timestamp": "2025-12-22T17:15:00.170172",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/DownloadDocumentFile",
+      "controller": "Company",
+      "action": "DownloadDocumentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.72,
+      "timestamp": "2025-12-22T17:14:59.636957",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDDDocumentation",
+      "controller": "DueDiligence",
+      "action": "GetDDDocumentation",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.68,
+      "timestamp": "2025-12-22T17:15:01.197464",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetRequestHistory",
+      "controller": "Company",
+      "action": "GetRequestHistory",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.14,
+      "timestamp": "2025-12-22T17:14:29.542956",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.47,
+          "baseline_time": 1.14,
+          "time_difference": 11.33,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.02,
+          "baseline_time": 1.14,
+          "time_difference": 15.88,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.66,
+          "baseline_time": 1.14,
+          "time_difference": 10.51,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.7,
+          "baseline_time": 1.14,
+          "time_difference": 10.55,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/ResendServiceProviderRequest",
+      "controller": "Company",
+      "action": "ResendServiceProviderRequest",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.7,
+      "timestamp": "2025-12-22T17:13:36.705918",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetParametersList",
+      "controller": "Company",
+      "action": "GetParametersList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.21,
+      "timestamp": "2025-12-22T17:14:39.221097",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.62,
+          "baseline_time": 1.21,
+          "time_difference": 10.41,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.67,
+          "baseline_time": 1.21,
+          "time_difference": 15.46,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.41,
+          "baseline_time": 1.21,
+          "time_difference": 10.21,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.33,
+          "baseline_time": 1.21,
+          "time_difference": 10.13,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/DownloadAttachmentFile",
+      "controller": "DueDiligence",
+      "action": "DownloadAttachmentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.49,
+      "timestamp": "2025-12-22T17:15:44.282911",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+      "controller": "DueDiligence",
+      "action": "PreviewAllQuestionnaireQuestions",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.71,
+      "timestamp": "2025-12-22T17:15:45.564194",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaire",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaire",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.64,
+      "timestamp": "2025-12-22T17:15:00.575116",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireDetails",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaireDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.58,
+      "timestamp": "2025-12-22T17:15:40.001661",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/CheckIsLafCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesToManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MigrateContactNameToFirstAndLastName",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateServiceProviderRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveImportDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/SaveDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequestFromDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ManageAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestDateHistory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/UpdateIsBlueColor",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderContactList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetImportedSPDetailById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/ApiScan/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ImportProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SendImportedSPRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ExportServiceProviderListExcel",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetAllCompanyList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesUserCanManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/RegisterNewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MyCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/NewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/VerifyNewCompanyRegistration",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompaniesForEliminatory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestData",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ServiceProviderAutoComplete",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateRequestStatus",
+      "controller": "Company",
+      "action": "UpdateRequestStatus",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.8,
+      "timestamp": "2025-12-22T17:17:39.756402",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/RejectRequest",
+      "controller": "Company",
+      "action": "RejectRequest",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.24,
+      "timestamp": "2025-12-22T17:17:50.547171",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/UpdateRequestLastSeen",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControl",
+      "controller": "DDRisk",
+      "action": "GetDDRiskControl",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.83,
+      "timestamp": "2025-12-22T17:17:39.789330",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyById",
+      "controller": "Company",
+      "action": "GetCompanyById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.06,
+      "timestamp": "2025-12-22T17:18:00.258286",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/InviteServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckUserEmailAlreadyExist",
+      "controller": "Company",
+      "action": "CheckUserEmailAlreadyExist",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.35,
+      "timestamp": "2025-12-22T17:18:00.830400",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetSPListForGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderContact",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyProfilePic",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckSPRequestStatus",
+      "controller": "Company",
+      "action": "CheckSPRequestStatus",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.33,
+      "timestamp": "2025-12-22T17:18:00.814606",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDDSettingsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyActionsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyDueDiligenceSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyActions",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ChangeAdministratorAndIsLocked",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Settings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/AutocompleteCostCenters",
+      "controller": "Company",
+      "action": "AutocompleteCostCenters",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.09,
+      "timestamp": "2025-12-22T17:18:00.317774",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetParameterById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveParameter",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/ReviewingDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderById",
+      "controller": "Company",
+      "action": "GetServiceProviderById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.27,
+      "timestamp": "2025-12-22T17:18:00.694922",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DDRisk/Index",
+      "controller": "DDRisk",
+      "action": "Index",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.33,
+      "timestamp": "2025-12-22T17:18:00.802478",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactList",
+      "controller": "Company",
+      "action": "GetCompanyContactList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 3.27,
+      "timestamp": "2025-12-22T17:17:42.700406",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetRedIconDetailsForSideBar",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireForRedIcon",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetOwnQuestionnaire",
+      "controller": "Company",
+      "action": "GetOwnQuestionnaire",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.85,
+      "timestamp": "2025-12-22T17:17:39.846362",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.61,
+          "baseline_time": 1.85,
+          "time_difference": 9.76,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.52,
+          "baseline_time": 1.85,
+          "time_difference": 14.67,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.58,
+          "baseline_time": 1.85,
+          "time_difference": 9.73,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.0,
+          "baseline_time": 1.85,
+          "time_difference": 10.15,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetAllCompaniesList",
+      "controller": "Company",
+      "action": "GetAllCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.81,
+      "timestamp": "2025-12-22T17:17:39.753291",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.63,
+          "baseline_time": 1.81,
+          "time_difference": 9.82,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.42,
+          "baseline_time": 1.81,
+          "time_difference": 14.61,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.33,
+          "baseline_time": 1.81,
+          "time_difference": 9.53,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.99,
+          "baseline_time": 1.81,
+          "time_difference": 10.19,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupList",
+      "controller": "Company",
+      "action": "GetServiceProviderGroupList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.91,
+      "timestamp": "2025-12-22T17:17:39.974730",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.61,
+          "baseline_time": 1.91,
+          "time_difference": 9.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.48,
+          "baseline_time": 1.91,
+          "time_difference": 14.57,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.61,
+          "baseline_time": 1.91,
+          "time_difference": 9.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.45,
+          "baseline_time": 1.91,
+          "time_difference": 10.53,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveAnswerAttachment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesList",
+      "controller": "Company",
+      "action": "GetCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.91,
+      "timestamp": "2025-12-22T17:17:39.957731",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.57,
+          "baseline_time": 1.91,
+          "time_difference": 9.66,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.48,
+          "baseline_time": 1.91,
+          "time_difference": 14.57,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.67,
+          "baseline_time": 1.91,
+          "time_difference": 9.76,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.15,
+          "baseline_time": 1.91,
+          "time_difference": 10.24,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProvidersListForGroup",
+      "controller": "Company",
+      "action": "GetServiceProvidersListForGroup",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.93,
+      "timestamp": "2025-12-22T17:17:40.003356",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.58,
+          "baseline_time": 1.93,
+          "time_difference": 9.65,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.49,
+          "baseline_time": 1.93,
+          "time_difference": 14.56,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.61,
+          "baseline_time": 1.93,
+          "time_difference": 9.67,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.27,
+          "baseline_time": 1.93,
+          "time_difference": 10.33,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetImportedSPList",
+      "controller": "Company",
+      "action": "GetImportedSPList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.93,
+      "timestamp": "2025-12-22T17:17:39.990215",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.46,
+          "baseline_time": 1.93,
+          "time_difference": 10.54,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.32,
+          "baseline_time": 1.93,
+          "time_difference": 14.39,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.39,
+          "baseline_time": 1.93,
+          "time_difference": 9.46,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.41,
+          "baseline_time": 1.93,
+          "time_difference": 12.48,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestList",
+      "controller": "Company",
+      "action": "GetServiceProviderRequestList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.9,
+      "timestamp": "2025-12-22T17:17:39.954873",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.61,
+          "baseline_time": 1.9,
+          "time_difference": 9.71,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.46,
+          "baseline_time": 1.9,
+          "time_difference": 14.56,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.68,
+          "baseline_time": 1.9,
+          "time_difference": 9.78,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.46,
+          "baseline_time": 1.9,
+          "time_difference": 10.56,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveGeneralContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSectionContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCustomerList",
+      "controller": "Company",
+      "action": "GetCustomerList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.68,
+      "timestamp": "2025-12-22T17:17:39.500009",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.46,
+          "baseline_time": 1.68,
+          "time_difference": 10.78,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.31,
+          "baseline_time": 1.68,
+          "time_difference": 14.63,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.64,
+          "baseline_time": 1.68,
+          "time_difference": 9.96,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 14.56,
+          "baseline_time": 1.68,
+          "time_difference": 12.88,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderList",
+      "controller": "Company",
+      "action": "GetServiceProviderList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.9,
+      "timestamp": "2025-12-22T17:17:39.936144",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.59,
+          "baseline_time": 1.9,
+          "time_difference": 9.7,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.47,
+          "baseline_time": 1.9,
+          "time_difference": 14.57,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.62,
+          "baseline_time": 1.9,
+          "time_difference": 9.72,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.43,
+          "baseline_time": 1.9,
+          "time_difference": 11.53,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetTeamChatDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetExtraQuestionDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/AddComment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+      "controller": "DueDiligence",
+      "action": "DeleteAnswerAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.09,
+      "timestamp": "2025-12-22T17:19:50.915767",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSPAnswer",
+      "controller": "DueDiligence",
+      "action": "SaveSPAnswer",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 2.06,
+      "timestamp": "2025-12-22T17:19:50.412465",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/FavouriteDD",
+      "controller": "DueDiligence",
+      "action": "FavouriteDD",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.31,
+      "timestamp": "2025-12-22T17:19:51.789750",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/updateAnsweredCountForAttachment",
+      "controller": "DueDiligence",
+      "action": "updateAnsweredCountForAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.23,
+      "timestamp": "2025-12-22T17:19:51.076736",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/RemoveAnswerAttachmentList",
+      "controller": "DueDiligence",
+      "action": "RemoveAnswerAttachmentList",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.22,
+      "timestamp": "2025-12-22T17:19:51.275453",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDueDiligenceList",
+      "controller": "Company",
+      "action": "GetCompanyDueDiligenceList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 0.98,
+      "timestamp": "2025-12-22T17:17:58.028259",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.26,
+          "baseline_time": 0.98,
+          "time_difference": 10.28,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.37,
+          "baseline_time": 0.98,
+          "time_difference": 15.4,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.77,
+          "baseline_time": 0.98,
+          "time_difference": 11.8,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.58,
+          "baseline_time": 0.98,
+          "time_difference": 11.6,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/SearchServiceProvider",
+      "controller": "Company",
+      "action": "SearchServiceProvider",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.75,
+      "timestamp": "2025-12-22T17:17:39.654838",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.55,
+          "baseline_time": 1.75,
+          "time_difference": 10.8,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.54,
+          "baseline_time": 1.75,
+          "time_difference": 15.79,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.39,
+          "baseline_time": 1.75,
+          "time_difference": 9.64,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.33,
+          "baseline_time": 1.75,
+          "time_difference": 11.58,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_3",
+          "payload": "' OR '1'='1';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 1.75,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/ExportPDF",
+      "controller": "DueDiligence",
+      "action": "ExportPDF",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.3,
+      "timestamp": "2025-12-22T17:19:54.276110",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/ServiceProviderByContact",
+      "controller": "Company",
+      "action": "ServiceProviderByContact",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.65,
+      "timestamp": "2025-12-22T17:19:21.585310",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/DownloadDocumentFile",
+      "controller": "Company",
+      "action": "DownloadDocumentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.11,
+      "timestamp": "2025-12-22T17:19:22.872515",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDDDocumentation",
+      "controller": "DueDiligence",
+      "action": "GetDDDocumentation",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.97,
+      "timestamp": "2025-12-22T17:19:23.820493",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDuediligenceDetails",
+      "controller": "DueDiligence",
+      "action": "GetDuediligenceDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.68,
+      "timestamp": "2025-12-22T17:19:24.868804",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetRequestHistory",
+      "controller": "Company",
+      "action": "GetRequestHistory",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.13,
+      "timestamp": "2025-12-22T17:18:47.854700",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.61,
+          "baseline_time": 1.13,
+          "time_difference": 10.48,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.61,
+          "baseline_time": 1.13,
+          "time_difference": 16.47,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.08,
+          "baseline_time": 1.13,
+          "time_difference": 11.95,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.91,
+          "baseline_time": 1.13,
+          "time_difference": 11.78,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetParametersList",
+      "controller": "Company",
+      "action": "GetParametersList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.74,
+      "timestamp": "2025-12-22T17:19:02.807853",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.01,
+          "baseline_time": 1.74,
+          "time_difference": 11.26,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.57,
+          "baseline_time": 1.74,
+          "time_difference": 14.83,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.36,
+          "baseline_time": 1.74,
+          "time_difference": 9.62,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.68,
+          "baseline_time": 1.74,
+          "time_difference": 10.94,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/ResendServiceProviderRequest",
+      "controller": "Company",
+      "action": "ResendServiceProviderRequest",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.29,
+      "timestamp": "2025-12-22T17:18:00.709257",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+      "controller": "DueDiligence",
+      "action": "PreviewAllQuestionnaireQuestions",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.63,
+      "timestamp": "2025-12-22T17:20:12.475242",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/DownloadAttachmentFile",
+      "controller": "DueDiligence",
+      "action": "DownloadAttachmentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.39,
+      "timestamp": "2025-12-22T17:20:11.466132",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "id",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 11.39,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaire",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaire",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.48,
+      "timestamp": "2025-12-22T17:19:24.842708",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireDetails",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaireDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.02,
+      "timestamp": "2025-12-22T17:19:44.343136",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetRequestDateHistory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MigrateContactNameToFirstAndLastName",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveImportDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderContactList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ExportServiceProviderListExcel",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetImportedSPDetailById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetAllCompanyList",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProviderGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ImportProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/SaveDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/UpdateIsBlueColor",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequestFromDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SendImportedSPRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckIsLafCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/ApiScan/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ManageAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateServiceProviderRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CreateExistingServiceProviderContactRequest",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesToManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesUserCanManage",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControlSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/NewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/RegisterNewCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateAllCompaniesForEliminatory",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateCompany",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/VerifyNewCompanyRegistration",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetRequestData",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ServiceProviderAutoComplete",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/MyCompanies",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateRequestStatus",
+      "controller": "Company",
+      "action": "UpdateRequestStatus",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.94,
+      "timestamp": "2025-12-22T17:21:46.032856",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/RejectRequest",
+      "controller": "Company",
+      "action": "RejectRequest",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 0.97,
+      "timestamp": "2025-12-22T17:21:57.884709",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/UpdateRequestLastSeen",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/GetDDRiskControl",
+      "controller": "DDRisk",
+      "action": "GetDDRiskControl",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.77,
+      "timestamp": "2025-12-22T17:21:45.676507",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderById",
+      "controller": "Company",
+      "action": "GetServiceProviderById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.13,
+      "timestamp": "2025-12-22T17:22:06.400246",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/InviteServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/AutocompleteCostCenters",
+      "controller": "Company",
+      "action": "AutocompleteCostCenters",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.97,
+      "timestamp": "2025-12-22T17:22:06.089795",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetSPListForGroup",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/DeleteServiceProviderContact",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/UpdateServiceProvider",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyProfilePic",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckUserEmailAlreadyExist",
+      "controller": "Company",
+      "action": "CheckUserEmailAlreadyExist",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.21,
+      "timestamp": "2025-12-22T17:22:06.558265",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDDSettingsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompanyActionsById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyDueDiligenceSettings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveCompanyActions",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/ChangeAdministratorAndIsLocked",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/Settings",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/CheckSPRequestStatus",
+      "controller": "Company",
+      "action": "CheckSPRequestStatus",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.22,
+      "timestamp": "2025-12-22T17:22:06.582213",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetParameterById",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/SaveParameter",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/Index",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/ReviewingDD",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DDRisk/Index",
+      "controller": "DDRisk",
+      "action": "Index",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.46,
+      "timestamp": "2025-12-22T17:22:07.052736",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyById",
+      "controller": "Company",
+      "action": "GetCompanyById",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.32,
+      "timestamp": "2025-12-22T17:22:06.791511",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyContactList",
+      "controller": "Company",
+      "action": "GetCompanyContactList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 3.71,
+      "timestamp": "2025-12-22T17:21:49.564508",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetRedIconDetailsForSideBar",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireForRedIcon",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderRequestList",
+      "controller": "Company",
+      "action": "GetServiceProviderRequestList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.81,
+      "timestamp": "2025-12-22T17:21:45.770425",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.53,
+          "baseline_time": 1.81,
+          "time_difference": 9.71,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.39,
+          "baseline_time": 1.81,
+          "time_difference": 14.57,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.5,
+          "baseline_time": 1.81,
+          "time_difference": 9.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.31,
+          "baseline_time": 1.81,
+          "time_difference": 9.49,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetOwnQuestionnaire",
+      "controller": "Company",
+      "action": "GetOwnQuestionnaire",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.94,
+      "timestamp": "2025-12-22T17:21:46.025046",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.99,
+          "baseline_time": 1.94,
+          "time_difference": 11.05,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.29,
+          "baseline_time": 1.94,
+          "time_difference": 14.35,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.46,
+          "baseline_time": 1.94,
+          "time_difference": 9.51,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.34,
+          "baseline_time": 1.94,
+          "time_difference": 9.4,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProvidersListForGroup",
+      "controller": "Company",
+      "action": "GetServiceProvidersListForGroup",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.86,
+      "timestamp": "2025-12-22T17:21:45.865490",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.67,
+          "baseline_time": 1.86,
+          "time_difference": 9.81,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.45,
+          "baseline_time": 1.86,
+          "time_difference": 14.6,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.52,
+          "baseline_time": 1.86,
+          "time_difference": 9.66,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.45,
+          "baseline_time": 1.86,
+          "time_difference": 9.59,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveAnswerAttachment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetAllCompaniesList",
+      "controller": "Company",
+      "action": "GetAllCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.87,
+      "timestamp": "2025-12-22T17:21:45.874458",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.74,
+          "baseline_time": 1.87,
+          "time_difference": 9.87,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.38,
+          "baseline_time": 1.87,
+          "time_difference": 14.52,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.49,
+          "baseline_time": 1.87,
+          "time_difference": 9.63,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.48,
+          "baseline_time": 1.87,
+          "time_difference": 9.61,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderGroupList",
+      "controller": "Company",
+      "action": "GetServiceProviderGroupList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.91,
+      "timestamp": "2025-12-22T17:21:45.967530",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.39,
+          "baseline_time": 1.91,
+          "time_difference": 10.48,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.48,
+          "baseline_time": 1.91,
+          "time_difference": 14.57,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.6,
+          "baseline_time": 1.91,
+          "time_difference": 9.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.46,
+          "baseline_time": 1.91,
+          "time_difference": 9.55,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/SearchServiceProvider",
+      "controller": "Company",
+      "action": "SearchServiceProvider",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.91,
+      "timestamp": "2025-12-22T17:21:45.965210",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.38,
+          "baseline_time": 1.91,
+          "time_difference": 10.48,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.36,
+          "baseline_time": 1.91,
+          "time_difference": 14.46,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.6,
+          "baseline_time": 1.91,
+          "time_difference": 9.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.41,
+          "baseline_time": 1.91,
+          "time_difference": 9.5,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetCustomerList",
+      "controller": "Company",
+      "action": "GetCustomerList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.98,
+      "timestamp": "2025-12-22T17:21:46.091077",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.31,
+          "baseline_time": 1.98,
+          "time_difference": 10.33,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.43,
+          "baseline_time": 1.98,
+          "time_difference": 14.46,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.54,
+          "baseline_time": 1.98,
+          "time_difference": 9.56,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.42,
+          "baseline_time": 1.98,
+          "time_difference": 9.45,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SaveGeneralContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSectionContributors",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetImportedSPList",
+      "controller": "Company",
+      "action": "GetImportedSPList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.87,
+      "timestamp": "2025-12-22T17:21:45.879356",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.74,
+          "baseline_time": 1.87,
+          "time_difference": 9.87,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.41,
+          "baseline_time": 1.87,
+          "time_difference": 14.54,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.51,
+          "baseline_time": 1.87,
+          "time_difference": 9.64,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.41,
+          "baseline_time": 1.87,
+          "time_difference": 9.55,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetServiceProviderList",
+      "controller": "Company",
+      "action": "GetServiceProviderList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.99,
+      "timestamp": "2025-12-22T17:21:46.117900",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.27,
+          "baseline_time": 1.99,
+          "time_difference": 10.28,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.38,
+          "baseline_time": 1.99,
+          "time_difference": 14.39,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.72,
+          "baseline_time": 1.99,
+          "time_difference": 10.73,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.35,
+          "baseline_time": 1.99,
+          "time_difference": 9.36,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/SendDueDiligenceToCustomer",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetTeamChatDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/GetExtraQuestionDetails",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/DueDiligence/AddComment",
+      "skipped": true,
+      "skip_reason": "No string parameters found"
+    },
+    {
+      "endpoint": "/Company/GetCompaniesList",
+      "controller": "Company",
+      "action": "GetCompaniesList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.96,
+      "timestamp": "2025-12-22T17:21:46.057375",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.86,
+          "baseline_time": 1.96,
+          "time_difference": 11.9,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 17.82,
+          "baseline_time": 1.96,
+          "time_difference": 15.86,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.36,
+          "baseline_time": 1.96,
+          "time_difference": 9.4,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.4,
+          "baseline_time": 1.96,
+          "time_difference": 9.44,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/DeleteAnswerAttachment",
+      "controller": "DueDiligence",
+      "action": "DeleteAnswerAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.01,
+      "timestamp": "2025-12-22T17:23:43.664158",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/updateAnsweredCountForAttachment",
+      "controller": "DueDiligence",
+      "action": "updateAnsweredCountForAttachment",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.21,
+      "timestamp": "2025-12-22T17:23:43.298926",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/SaveSPAnswer",
+      "controller": "DueDiligence",
+      "action": "SaveSPAnswer",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.33,
+      "timestamp": "2025-12-22T17:23:43.455701",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/FavouriteDD",
+      "controller": "DueDiligence",
+      "action": "FavouriteDD",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.17,
+      "timestamp": "2025-12-22T17:23:44.428678",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/RemoveAnswerAttachmentList",
+      "controller": "DueDiligence",
+      "action": "RemoveAnswerAttachmentList",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.12,
+      "timestamp": "2025-12-22T17:23:44.211817",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/ExportPDF",
+      "controller": "DueDiligence",
+      "action": "ExportPDF",
+      "http_method": "POST",
+      "is_datatable": false,
+      "baseline_time": 1.4,
+      "timestamp": "2025-12-22T17:23:45.435243",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/ServiceProviderByContact",
+      "controller": "Company",
+      "action": "ServiceProviderByContact",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.46,
+      "timestamp": "2025-12-22T17:23:26.487150",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/DownloadDocumentFile",
+      "controller": "Company",
+      "action": "DownloadDocumentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.2,
+      "timestamp": "2025-12-22T17:23:26.488776",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetDDDocumentation",
+      "controller": "DueDiligence",
+      "action": "GetDDDocumentation",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.79,
+      "timestamp": "2025-12-22T17:23:29.518307",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/Company/GetCompanyDueDiligenceList",
+      "controller": "Company",
+      "action": "GetCompanyDueDiligenceList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.9,
+      "timestamp": "2025-12-22T17:22:11.314545",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.4,
+          "baseline_time": 1.9,
+          "time_difference": 9.5,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.33,
+          "baseline_time": 1.9,
+          "time_difference": 14.43,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.36,
+          "baseline_time": 1.9,
+          "time_difference": 9.45,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.43,
+          "baseline_time": 1.9,
+          "time_difference": 9.53,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_5",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": ">60",
+          "baseline_time": 1.9,
+          "time_difference": ">60",
+          "expected_delay": 10.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/DueDiligence/GetDuediligenceDetails",
+      "controller": "DueDiligence",
+      "action": "GetDuediligenceDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.8,
+      "timestamp": "2025-12-22T17:23:29.140591",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "id",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": ">60",
+          "baseline_time": 11.8,
+          "time_difference": ">60",
+          "expected_delay": 15.0,
+          "status_code": "Timeout",
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetRequestHistory",
+      "controller": "Company",
+      "action": "GetRequestHistory",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.05,
+      "timestamp": "2025-12-22T17:22:52.955271",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.74,
+          "baseline_time": 1.05,
+          "time_difference": 11.69,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.61,
+          "baseline_time": 1.05,
+          "time_difference": 15.55,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.41,
+          "baseline_time": 1.05,
+          "time_difference": 10.36,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.47,
+          "baseline_time": 1.05,
+          "time_difference": 10.42,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/GetParametersList",
+      "controller": "Company",
+      "action": "GetParametersList",
+      "http_method": "POST",
+      "is_datatable": true,
+      "baseline_time": 1.2,
+      "timestamp": "2025-12-22T17:23:06.955230",
+      "skipped": false,
+      "vulnerabilities": [
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:10'--",
+          "response_time": 13.75,
+          "baseline_time": 1.2,
+          "time_difference": 12.54,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "';WAITFOR DELAY '0:0:15'--",
+          "response_time": 16.66,
+          "baseline_time": 1.2,
+          "time_difference": 15.46,
+          "expected_delay": 15.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "1';WAITFOR DELAY '0:0:10'--",
+          "response_time": 11.36,
+          "baseline_time": 1.2,
+          "time_difference": 10.16,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        },
+        {
+          "parameter": "mDataProp_0",
+          "payload": "admin';WAITFOR DELAY '0:0:10'--",
+          "response_time": 12.45,
+          "baseline_time": 1.2,
+          "time_difference": 11.25,
+          "expected_delay": 10.0,
+          "status_code": 500,
+          "vulnerable": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/Company/ResendServiceProviderRequest",
+      "controller": "Company",
+      "action": "ResendServiceProviderRequest",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 12.22,
+      "timestamp": "2025-12-22T17:22:06.583602",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/DownloadAttachmentFile",
+      "controller": "DueDiligence",
+      "action": "DownloadAttachmentFile",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.51,
+      "timestamp": "2025-12-22T17:24:04.592783",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/PreviewAllQuestionnaireQuestions",
+      "controller": "DueDiligence",
+      "action": "PreviewAllQuestionnaireQuestions",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.16,
+      "timestamp": "2025-12-22T17:24:04.934442",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaire",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaire",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.49,
+      "timestamp": "2025-12-22T17:23:28.731515",
+      "skipped": false,
+      "vulnerabilities": []
+    },
+    {
+      "endpoint": "/DueDiligence/GetQuestionnaireDetails",
+      "controller": "DueDiligence",
+      "action": "GetQuestionnaireDetails",
+      "http_method": "GET",
+      "is_datatable": false,
+      "baseline_time": 11.98,
+      "timestamp": "2025-12-22T17:23:48.251637",
+      "skipped": false,
+      "vulnerabilities": []
+    }
+  ]
+}
